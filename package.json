@@ -1,0 +1,26 @@
+{
+  "name": "mspcm-docs",
+  "version": "1.0.0",
+  "description": "The unofficial document for Microsoft PC Manager, maintained by MSPCM administrators.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mspcmanager/mspcm-docs.git"
+  },
+  "author": "MSPCM administrators",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mspcmanager/mspcm-docs/issues"
+  },
+  "homepage": "https://github.com/mspcmanager/mspcm-docs#readme",
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "vitepress": "^1.0.0-alpha.69",
+    "vue": "^3.2.47"
+  }
+}
