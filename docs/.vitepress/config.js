@@ -25,7 +25,7 @@ export default defineConfig({
     }],
 
     editLink: {
-      pattern: 'https://github.com/mcpcmanager/mspcm-docs/edit/main/:path',
+      pattern: 'https://github.com/mspcmanager/mspcm-docs/edit/main/docs/:path',
       text: '在 Github 上编辑此页'
     },
 
