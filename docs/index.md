@@ -23,3 +23,31 @@ hero:
     --vp-home-hero-name-background: linear-gradient(120deg, #69cc94, #126acb);
 }
 </style>
+
+<script setup>
+import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
+const members = [
+  {
+    avatar: 'https://www.github.com/crrashh1542.png',
+    name: 'crrashh1542',
+    title: '组织者',
+    links: [
+      { icon: 'github', link: 'https://github.com/crrashh1542' },
+    ]
+  },
+]
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+      文档维护人员
+    </template>
+    <template #lead>
+      请注意，我们只是该软件 QQ 社群的管理员，并非微软公司的员工，与微软公司无关系，同时也不与微软公司发生任何利益往来。
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+  />
+</VPTeamPage>
