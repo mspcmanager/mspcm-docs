@@ -18,8 +18,8 @@
 # 官网正常打开但无法下载
 
 问题图例：（亦或者提示“aka.ms 已拒绝连接。”）   
-![下载报错](assets/before-installation/err_connection_timed-out.png)
+![下载报错](assets/before-installation/err_connection_timed_out.png)
 解决方案  ：
 1. 将地址栏中“aka.ms”字样的内容替换为“www.aka.ms”
-2. 将 DNS 更换为 223.5.5.5 等其它可靠 IPv4 DNS 后再重试。
+2. [将DNS 更换为 223.5.5.5 等其它可靠 IPv4 DNS](change-dns.md) 后再重试。
 
