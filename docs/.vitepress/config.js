@@ -23,6 +23,24 @@ export default defineConfig({
         { text: '官方 Discord', link: 'https://discord.com/invite/FTDTddsPgd' }
       ]
     }],
+    
+    sidebar: [
+      {
+        text: '起步',
+        items: [
+          { text: '关于', link: '/get-started' },
+        ]
+      },
+      {
+        text: '可能遇到的问题',
+        items: [
+          { text: '安装须知', link: '/before-installation' },
+          { text: '安装错误处理', link: '/installation-errors' },
+          { text: 'zip 格式安装包使用', link: '/version-zip' },
+          { text: '切换 DNS', link: '/change-dns'}
+        ]
+      }
+    ],
 
     editLink: {
       pattern: 'https://github.com/mspcmanager/mspcm-docs/edit/main/docs/:path',
