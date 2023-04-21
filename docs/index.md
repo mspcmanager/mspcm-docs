@@ -18,24 +18,12 @@ hero:
 ---
 
 <style>
-:root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(120deg, #69cc94, #126acb);
-}
+
 </style>
 
 <script setup>
 import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
-const members = [
-  {
-    avatar: 'https://www.github.com/crrashh1542.png',
-    name: 'crrashh1542',
-    title: '组织者',
-    links: [
-      { icon: 'github', link: 'https://github.com/crrashh1542' },
-    ]
-  },
-]
+import members from "./data/members.json"
 </script>
 
 <VPTeamPage>
