@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mspcmanager/mspcm-docs#readme",
   "dependencies": {
+    "less": "^4.1.3",
     "typescript": "^5.0.4",
     "vitepress": "^1.0.0-alpha.69",
     "vue": "^3.2.47"
