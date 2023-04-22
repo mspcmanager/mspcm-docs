@@ -15,5 +15,14 @@
       "links": [
             { "icon": "github", "link": "https://github.com/easycomputer1" }
         ]
-    }
+    },
+
+    {
+        "avatar": "https://www.github.com/goo-aw233.png",
+        "name": "事猫猫欸",
+        "title": "文档贡献者（搁那重新造轮子的）",
+        "links": [
+              { "icon": "github", "link": "https://github.com/goo-aw233" }
+          ]
+      }
 ]

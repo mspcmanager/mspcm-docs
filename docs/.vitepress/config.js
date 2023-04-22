@@ -28,16 +28,15 @@ export default defineConfig({
       {
         text: '起步',
         items: [
-          { text: '关于', link: '/get-started' },
+          { text: '协议与声明', link: '/agreements_and_declarations' },
+          { text: '关于软件', link: '/aboutMSPCManager' }
         ]
       },
       {
-        text: '可能遇到的问题',
+        text: '下载与安装问题',
         items: [
-          { text: '安装须知', link: '/before-installation' },
-          { text: '安装错误处理', link: '/installation-errors' },
-          { text: 'zip 格式安装包使用', link: '/version-zip' },
-          { text: '切换 DNS', link: '/change-dns'}
+          { text: '安装前', link: '/before_installation' },
+          { text: '安装过程中的问题', link: '/installation_process' },
         ]
       }
     ],
