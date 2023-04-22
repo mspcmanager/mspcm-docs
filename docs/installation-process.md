@@ -2,7 +2,7 @@
 
 ## 下载展开安装文件失败
 
-问题图例：![](assets\installation_process\download_error\download_and_unpack_error.png)
+问题图例：![](assets\installation-process\download-error\download-and-unpack-error.png)
 
 问题引起：
 
@@ -23,26 +23,26 @@
 
 1. 打开 <code>PCManagerFiles.zip</code> 文件，并选择全部解压到桌面的 <code>Microsoft PC Manager</code> 文件夹里
 
-![](assets\installation_process\download_error\exact_files.png)
+![](assets\installation-process\download-error\exact-files.png)
 
 2. 打开 C:\Program Files 目录，并将“Microsoft PC Manager”文件夹复制。
 
-![](assets\installation_process\download_error\moving_folders.png)
+![](assets\installation-process\download-error\moving-folders.png)
 
 3. 在弹窗中点击“继续(C)”。
 
-![](assets\installation_process\download_error\continue_moving.png)
+![](assets\installation-process\download-error\continue-moving.png)
 
 4. 然后在“Microsoft PC Manager”文件夹里找到名为“MSPCManager.exe”的文件，左键选择它，然后按下 Shift+F10（如果是 Windows 10 或经典右键菜单的 Windows 11 可直接右键），在弹出的菜单栏中选择“发送到(N)”>“桌面快捷方式”。
 
-![](assets\installation_process\download_error\create_shortcut.png)
+![](assets\installation-process\download-error\create-shortcut.png)
 
 5. 然后将桌面上的快捷方式重命名（可不做），然后双击即可运行微软电脑管家。
 
 特别提示：使用该方法前请尝试重新下载离线包，或退出所有反病毒与间谍软件后再重试。
 
 ## 主程序安装时长时间卡在 32%
-问题图例：![](assets\installation_process\32_percent.png)
+问题图例：![](assets\installation-process\32-percent.png)
 
 问题引起：您的网络环境较差，导致与 Microsoft 通信不佳。（仅在线安装包）
 

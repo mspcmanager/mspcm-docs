@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 阅读文档
-      link: /agreements_and_declarations
+      link: /agreements-and-declarations
     - theme: alt
       text: 立即下载
       link: https://pcmanager.microsoft.com
