@@ -37,6 +37,9 @@ export default defineConfig({
         items: [
           { text: '安装前', link: '/before_installation' },
           { text: '安装过程中的问题', link: '/installation_process' },
+          { text: '使用过程中的问题', link: '/process_of_use' },
+          { text: 'Microsoft Defender 防病毒问题', link: '/MDA' },
+          { text: '其它尚未解决的问题', link: '/unresolved_issues' }
         ]
       }
     ],
