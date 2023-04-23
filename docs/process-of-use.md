@@ -27,12 +27,12 @@
 
 解决方案：（请先 **退出微软电脑管家主程序** 。）
 
-1. 请尝试 [https://go.microsoft.com/fwlink/?linkid=2124701](下载 Microsoft Edge WebView2) 并安装。（需要右键安装程序，选择“以管理员身份运行”）
+1. 请尝试 [下载 Microsoft Edge WebView2](https://go.microsoft.com/fwlink/?linkid=2124701) 并安装。（需要右键安装程序，选择“以管理员身份运行”）
 
 2. 请尝试重新修复，并直接点击“是”。
-![](assets\process-of-use\Edge-WebView-2\Edge-WebView- 2-Setup.png)
+![](assets\process-of-use\Edge-WebView-2\Edge-WebView-2-Setup.png)
 
-3. 请尝试以下步骤以修复 Microsoft Edge WebView2 Runtime
+3. 请尝试以下步骤以修复 Microsoft Edge WebView2 Runtime。
 
 a. 按下 Windows 徽标键+R，输入 ms-settings:appsfeatures 并回车。
 
@@ -58,13 +58,13 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 ## "无法完成当前操作"
 问题图例：![](assets\process-of-use\service-error\unable-to-proceed.png)
 解决方案：
-1.按下 Windows 徽标键+R，输入“services.msc”并回车
+1. 按下 Windows 徽标键+R，输入“services.msc”并回车
 
-2.找到名为“PCManager Service”的服务，右键选择“启动(S)”。（或者是“重新启动(E)”）
+2. 找到名为“PCManager Service”的服务，右键选择“启动(S)”。（或者是“重新启动(E)”）
 ![](assets\process-of-use\service-error\start-service.png)
 ![](assets\process-of-use\service-error\restart-service.png)
 
-3.尝试重新运行“垃圾清理”任务。
+3. 尝试重新运行“垃圾清理”任务。
 ![](assets\process-of-use\service-error\cleanup.png)
 
 若报错依旧，请参阅[《提交日志：提交其它问题的 Log》](feedback-bugs#提交其它问题的-log)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。

@@ -15,7 +15,7 @@
 Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Filter "MSPCManagerInstaller.log" -destination "$env:PUBLIC\Desktop\微软电脑管家安装日志.log"
 ```
 
-2. 获取转储文件：请转到【附录：《如何获取转储文件》】。
+2. 获取转储文件：请参阅[《如何获取转储文件》](#获取转储文件)。
 
 3. 反馈问题：
 
@@ -41,11 +41,11 @@ Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Fil
 
 （如果你使用的是“Log&EvtxRetriever.bat”，则直接执行第 3 步。）
 
-2.下载“EvtxRetriever.bat”，右键该文件，选择“以管理员身份运行”。
+2. 下载“EvtxRetriever.bat”，右键该文件，选择“以管理员身份运行”。
 
-3.转到【附录：《如何获取转储文件》】。
+3. 请参阅[《如何获取转储文件》](#获取转储文件)。
 
-4.将 LogRetriever.exe 与 EvtxRetriever.bat（亦或是 Log&EvtxRetriever.bat）生成的 zip 压缩包与应用程序事件一并发送给软软小助手(551292353)，并根据以下模板发送你的计算机信息：
+4. 将 LogRetriever.exe 与 EvtxRetriever.bat（亦或是 Log&EvtxRetriever.bat）生成的 zip 压缩包与应用程序事件一并发送给[软软小助手(551292353)](https://wpa.qq.com/msgrd?v=3&uin=551292353&site=qq&menu=yes)，并根据以下模板发送你的计算机信息：
 
 微软电脑管家版本：1.2.9.3
 
@@ -57,7 +57,7 @@ Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Fil
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin11.png)
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin10.png)
 
-## 获取 DMP 文件
+## 获取转储文件
 按下 Ctrl+Shift+ESC 打开任务管理器，找到名为“微软电脑管家”（或“MSPCManager”）的子进程，点击展开按钮（>），选择名为“微软电脑管家”（或“MSPCManager”）的子进程并右键，点击“创建转储文件(C)”。
 ![](assets\appendix\feedback-bugs\dmp\create-dmp-file-1.png)
 
