@@ -6,19 +6,19 @@
 
 问题引起：可能被注册表屏蔽，或者 Microsoft Defender 防病毒组件被移除。
 
-解决方案：先尝试从 [OneDrive](https://ys8rx-my.sharepoint.com/:u:/g/personal/gucats-ys8rx-onmicrosoft-com/ET-OJ80GdGBDtVYF7Qu7NT8Bq3pbkbnXgmZda1zIVOWfPQ?e=kzwnuw) 下载<code>开启 Microsoft Defender.reg</code>，打开后选择导入。若问题变成《无可用的防病毒提供方。你的设备易受攻击。》章节的内容，则请转到《加载 Microsoft Defender 时遇到问题》章节。
+解决方案：先尝试从 [OneDrive](https://ys8rx-my.sharepoint.com/:u:/g/personal/gucats-ys8rx-onmicrosoft-com/ET-OJ80GdGBDtVYF7Qu7NT8Bq3pbkbnXgmZda1zIVOWfPQ?e=kzwnuw) 下载<code>开启 Microsoft Defender.reg</code>，打开后选择导入。若问题变成[《无可用的防病毒提供方。你的设备易受攻击。》](#无可用的防病毒提供方。你的设备易受攻击。)章节的内容，则请参阅[《加载 Microsoft Defender 时遇到问题》](#加载-microsoft-defender-时遇到问题)章节。
 
 **特别提示：若是您当前计算机使用的是神州网信政府版（EnterpriseG），该版本不内置 Microsoft Defender 防病毒，故无法使用此文章内任何方法来修复并使用该功能。**
 
 ## "未安装 Microsoft Defender 防病毒"
 问题图例：![](assets\MDA\MD-unable-to-load\MD-not-installed.png)
 
-问题引起&解决方案：请转到《加载 Microsoft Defender 时遇到问题》章节。
+问题引起&解决方案：请参阅[《加载 Microsoft Defender 时遇到问题》](#加载-microsoft-defender-时遇到问题)章节。
 
 ## "无可用的防病毒提供方。你的设备易受攻击。"
 问题图例：![](assets\MDA\MD-unable-to-load\no-anti-virus-available.png)
 
-问题引起&解决方案：请转到《加载 Microsoft Defender 时遇到问题》章节。
+问题引起&解决方案：请参阅[《加载 Microsoft Defender 时遇到问题》](#加载-microsoft-defender-时遇到问题)章节。
 
 ## "加载 Microsoft Defender 时遇到问题"
 问题图例：![](assets\MDA\MD-unable-to-load\failed-to-load-MD.png)
@@ -35,7 +35,7 @@
 
 特别提示：Microsoft Defender 防病毒亦可能被其它等非反间谍软件所关闭。
 
-2. 请转到【附录：《如何使用镜像对 Windows 进行修复》】。
+2. 请参阅[《如何使用镜像对 Windows 进行修复》](repair-system-image.md#镜像修复)。
 
 ## "你正在使用其他防病毒提供程序。"
 问题图例：![](assets\MDA\other-anti-virus-being-used\other-anti-virus-being-used.png)

@@ -49,6 +49,10 @@ export default defineConfig({
           { text: '公开最新版本号及查询方式', link: '/version-check' },
           { text: '提交日志', link: '/feedback-bugs' },
           { text: '友情提示', link: '/OUCH' },
+          { text: '提交建议与反馈及信息采集', link: '/connect-with-us' },
+          { text: '修复损坏的系统映像', link: '/repair-system-image' },
+          { text: '如何更换 DNS', link: '/change-DNS' },
+          { text: '后记', link: '/postscript' }
         ]
       }
     ],

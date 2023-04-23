@@ -56,3 +56,16 @@ Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Fil
 （按下 Windows 徽标键+R，输入 ms-settings:about ，回车后即可看系统版本，无需截图给软软小助手，只是图例。）
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin11.png)
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin10.png)
+
+## 获取 DMP 文件
+按下 Ctrl+Shift+ESC 打开任务管理器，找到名为“微软电脑管家”（或“MSPCManager”）的子进程，点击展开按钮（>），选择名为“微软电脑管家”（或“MSPCManager”）的子进程并右键，点击“创建转储文件(C)”。
+![](assets\appendix\feedback-bugs\dmp\create-dmp-file-1.png)
+
+如果是安装程序，则直接右键“MSPCManager”（或“微软电脑管家”），点击“创建转储文件(C)”。
+![](assets\appendix\feedback-bugs\dmp\create-dmp-file-2.png)
+
+完成后点击“打开文件位置”。
+![](assets\appendix\feedback-bugs\dmp\open-in.png)
+
+将 MSPCManager.DMP 文件复制到“微软电脑管家日志文件”的文件夹后一并打包成压缩包。
+![](assets\appendix\feedback-bugs\dmp\dmp-file.png)

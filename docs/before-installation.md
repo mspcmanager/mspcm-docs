@@ -17,4 +17,4 @@
 
 ![](assets\before-installation\replacement.png)
 
-2. 将 DNS 更换为 223.5.5.5 等其它可靠 IPv4 DNS 后再重试。（需要帮助？请转到【附录：《如何更换 DNS》】）
+2. 将 DNS 更换为 223.5.5.5 等其它可靠 IPv4 DNS 后再重试。（需要帮助？请参阅[《如何更改 DNS》](change-DNS.md)）

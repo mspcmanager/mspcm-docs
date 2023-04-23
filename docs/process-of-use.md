@@ -3,13 +3,12 @@
 ## “抱歉，程序运行发生了错误，请点击‘重试’按钮进行修复。”
 问题图例：![](assets\process-of-use\Edge-WebView-2\click-to-repair.png)
 
-问题引起&解决方案：请参考《修复发生错误，请退出并重启。》章节。
-
+问题引起&解决方案：请参阅[《修复发生错误，请退出并重启。》](#修复发生错误-请退出并重启。)。
 
 ## 长时间处于“正在修复中...”
 问题图例：![](assets\process-of-use\Edge-WebView-2\reparing.png)
 
-问题引起&解决方案：请参考《修复发生错误，请退出并重启。》章节。
+问题引起&解决方案：请参阅[《修复发生错误，请退出并重启。》](#修复发生错误-请退出并重启。)。
 
 ## "修复发生错误，请退出并重启。"
 问题图例：![](assets\process-of-use\Edge-WebView-2\error-to-repair.png)
@@ -54,7 +53,7 @@ b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序。
 
 c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步骤。
 
-事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先转到【如何提交 Log：《提交其它问题的 Log》】，再转到【附录：《如何使用镜像对 Windows 进行修复》】。
+事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志：提交其它问题的 Log》](feedback-bugs#提交其它问题的-log)，再转到[《如何使用镜像对 Windows 进行修复》](repair-system-image.md#镜像修复)。
 
 ## "无法完成当前操作"
 问题图例：![](assets\process-of-use\service-error\unable-to-proceed.png)
@@ -68,7 +67,7 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 3.尝试重新运行“垃圾清理”任务。
 ![](assets\process-of-use\service-error\cleanup.png)
 
-若报错依旧，请转到【如何提交 Log：《提交其它问题的 Log》】的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
+若报错依旧，请参阅[《提交日志：提交其它问题的 Log》](feedback-bugs#提交其它问题的-log)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
 
 ## 设置页无法改动选项
 问题图例：![](assets\process-of-use\unable-to-set.png)
