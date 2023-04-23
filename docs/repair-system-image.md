@@ -20,7 +20,7 @@ DISM.exe /Online /Cleanup-Image /CheckHealth
 
 <details>
 
-<summary>关于映像检查。</summary>
+<summary>关于映像检查</summary>
 当您使用 /CheckHealth 参数时，DISM 工具将报告映像是否正常、可修复或不可修复。
 
 如果映像不可修复，在尝试使用 [《Media Creation Tool 修复升级》](#media-creation-tool-修复升级)失败后，应当使用由 Microsoft 提供的系统镜像执行 **重新安装**。

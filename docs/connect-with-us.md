@@ -7,7 +7,7 @@
 
 <details>
 
-<summary>如何加入 QQ 频道。</summary>
+<summary>如何加入 QQ 频道</summary>
 
 1. 点击右上角“关注我们”-“官方 QQ 频道”。
 
@@ -31,7 +31,7 @@
 
 <details>
 
-<summary>或者通过以下方法手动提交反馈。</summary>
+<summary>或者通过以下方法手动提交反馈</summary>
 
 从 OneDrive 中获取 [Spy++](https://ys8rx-my.sharepoint.com/:f:/g/personal/gucats_ys8rx_onmicrosoft_com/EsfXKZanAY5AkVfITGxnWd4BXzTy6TJ6iK4BTp8FbAKI0g?e=pcGfby)。（或[从 Visual Studio](https://learn.microsoft.com/zh-cn/visualstudio/debugger/how-to-start-spy-increment?view=vs-2022) 中打开）
 
