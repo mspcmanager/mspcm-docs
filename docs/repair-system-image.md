@@ -70,16 +70,30 @@ Windows 10 不再在电脑端网页单独提供 ISO 下载，如果有需要，�
 下载 Media Creation Tool：[Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) | [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295)
 
 :::warning 注意
-Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可以直接使用 Media Creation Tool 升级/修复系统
+Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可以直接使用 Media Creation Tool 升级/修复系统。
 :::
 
 1. ![](assets\appendix\repair-system-image\mct\agreement.png)
 2. ![](assets\appendix\repair-system-image\mct\upgrade.png)
-4. ![](assets\appendix\repair-system-image\mct\install.png)
-5. ![](assets\appendix\repair-system-image\mct\waiting.png)
+
+<details>
+
+<summary>若是 Windows 11 则会有以下选项</summary>
+
+------
+- a. ![](assets\appendix\repair-system-image\mct\for-this-PC.png)
+- b. ![](assets\appendix\repair-system-image\mct\ISO-file.png)
+- c. ![](assets\appendix\repair-system-image\mct\select-folder.png)
+创建完成后请参阅 [镜像修复](#镜像修复)
+------
+
+</details>
+
+3. ![](assets\appendix\repair-system-image\mct\install.png)
+4. ![](assets\appendix\repair-system-image\mct\waiting.png)
 
 ## 镜像修复
-使用镜像根目录下的 Setup 应用程序对系统进行修复。（升级，所需时间≥30min）
+双击 .ISO 镜像文件使文件资源管理器自动挂载虚拟镜像，然后使用镜像根目录下的 Setup 应用程序对系统进行修复。（升级，所需时间≥30min）
 1. ![](assets\appendix\repair-system-image\iso\setup.png)
 2. ![](assets\appendix\repair-system-image\iso\continue.png)
 3. ![](assets\appendix\repair-system-image\iso\agreement.png)

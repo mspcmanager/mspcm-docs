@@ -19,13 +19,15 @@ Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Fil
 
 3. 反馈问题：
 
-您可以简单描述一下问题并提交打包好的 Log 给软软小助手，模板如下：
+您可以简单描述一下问题并提交打包好的 Log 给软软小助手，并根据以下的模板发送你的计算机信息：
 
+```Text
 微软电脑管家版本：1.2.9.3
 
 系统：Windows 11 专业工作站版 Insider Preview 22H2 25346.1001
 
 问题：微软电脑管家安装失败。
+```
 
 （按下 Windows 徽标键+R，输入 ms-settings:about ，回车后即可看系统版本，无需截图给软软小助手，只是图例。）
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin11.png)
@@ -45,13 +47,15 @@ Get-ChildItem $env:temp -recurse MSPCManagerInstaller.log | Copy-Item -Fil
 
 3. 请参阅[《如何获取转储文件》](#获取转储文件)。
 
-4. 将 LogRetriever.exe 与 EvtxRetriever.bat（亦或是 Log&EvtxRetriever.bat）生成的 zip 压缩包与应用程序事件一并发送给[软软小助手(551292353)](https://wpa.qq.com/msgrd?v=3&uin=551292353&site=qq&menu=yes)，并根据以下模板发送你的计算机信息：
+4. 将 LogRetriever.exe 与 EvtxRetriever.bat（亦或是 Log&EvtxRetriever.bat）生成的 zip 压缩包与应用程序事件一并发送给[软软小助手(551292353)](https://wpa.qq.com/msgrd?v=3&uin=551292353&site=qq&menu=yes)，并根据以下的模板发送你的计算机信息：
 
+```Text
 微软电脑管家版本：1.2.9.3
 
 系统：Windows 11 专业工作站版 Insider Preview 22H2 25346.1001
 
 问题：微软电脑管家的缓存清理功能导致某软件弹窗。
+```
 
 （按下 Windows 徽标键+R，输入 ms-settings:about ，回车后即可看系统版本，无需截图给软软小助手，只是图例。）
 ![](assets\appendix\feedback-bugs\view-versions\SysinfoWin11.png)
