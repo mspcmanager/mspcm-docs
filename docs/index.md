@@ -1,5 +1,6 @@
 ---
 layout: home
+title: 首页
 
 hero:
   name: 微软电脑管家
