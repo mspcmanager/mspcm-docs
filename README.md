@@ -12,12 +12,14 @@
 2. 请在提交 commit 时遵守 commit message 的相关规则。您可以参考 → <https://zhuanlan.zhihu.com/p/182553920>  
 * 错误范例：新增内容
 * 正确范例：docs: 新增内容
-3. 对于文档中的内容，请在中英文之间打上空格。
+3. 对于文档中的内容，请在中英文之间打上空格以保持美观。
+4. 请遵守一定的文件命名规则。
 
 
 ## 🖥️ 部署 / Deployment  
 首先，请确保您的计算机中安装了 Node.js（16 或更高版本）。  
 1. 将源码下载到本地：
+使用 git 命令行：
 ```shell
 git clone https://github.com/mspcmanager/mspcm-docs
 ```
@@ -33,4 +35,4 @@ npm run dev
 ```shell
 npm run build
 ```
-然后在 `/docs/.vitepress/dist` 中，您可以查收打包好的文件，并将其部署到您的服务器中。~（不过应该没人会把咱文档部署到自己的服务器上吧）~
+然后在 `/dist` 目录中，您可以查收打包好的文件，并将其部署到您的服务器中。~（不过应该没人会把咱文档部署到自己的服务器上吧）~
