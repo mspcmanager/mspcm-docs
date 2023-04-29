@@ -2,19 +2,49 @@ import { defineConfig } from 'vitepress'
 import { version } from '../../package.json'
 
 export default defineConfig({
+    // STEP 1 ---- 站点配置
     lang: 'zh-CN',
     title: '微软电脑管家文档',
-    titleTemplate: '微软电脑管家文档',
     description: '微软电脑管家使用及问题帮助文档',
     appearance: true,
     lastUpdated: true,
     cleanUrls: true,
 
+    // STEP 2 ---- 目录配置
     base: '/',
     srcDir: '.',
     outDir: '../dist',
+    locales: {
+        root: {
+            label: '简体中文',
+            lang: 'zh',
+            link: '/',
+            dir: '/'
+        },
+        en: {
+            label: 'English',
+            lang: 'en',
+            link: '/en/',
+            dir: '/en/'
+        },
+    },
 
     themeConfig: {
+        // STEP 3 ---- 相关组件汉化
+        darkModeSwitchLabel: '主题',
+        sidebarMenuLabel: '菜单',
+        returnToTopLabel: '回到顶部',
+        langMenuLabel: '多语言',
+        outlineTitle: '当前页',
+        logo: '/assets/logo.png',
+        lastUpdatedText: '最近更新时间',
+        siteTitle: '微软电脑管家文档',
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇',
+        },
+
+        // STEP 4 ---- 链接配置
         nav: [{
             text: '官方网站',
             link: 'https://pcmanager.microsoft.com'
