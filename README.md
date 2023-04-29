@@ -17,21 +17,24 @@
 
 
 ## 🖥️ 部署 / Deployment  
+您可以选择两种方式来部署：
+1. 从我们的 [Releases](https://github.com/mspcmanager/mspcm-docs/releases) 中下载打包好了的最新稳定版页面，然后部署。
+2. 通过 Node 命令行部署最新的文档。
 首先，请确保您的计算机中安装了 Node.js（16 或更高版本）。  
-1. 将源码下载到本地：
-使用 git 命令行：
+a. 将源码下载到本地：  
+使用 git 命令行：  
 ```shell
 git clone https://github.com/mspcmanager/mspcm-docs
 ```
-2. 安装依赖的模块：
+b. 安装依赖的模块：  
 ```shell
 npm install
 ```
-3. 启动开发环境：
+c. 启动开发环境：  
 ```shell
 npm run dev
 ```
-4. 启动生产环境，将文档打包成网页文件：
+d. 启动生产环境，将文档打包成网页文件：  
 ```shell
 npm run build
 ```
