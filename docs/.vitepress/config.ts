@@ -13,6 +13,20 @@ export default defineConfig({
     base: '/',
     srcDir: '.',
     outDir: '../dist',
+    locales: {
+        root: {
+            label: '简体中文',
+            lang: 'zh',
+            link: '/',
+            dir: '/'
+        },
+        en: {
+            label: 'English',
+            lang: 'en',
+            link: '/en/',
+            dir: '/en/'
+        },
+    },
 
     themeConfig: {
         nav: [{
