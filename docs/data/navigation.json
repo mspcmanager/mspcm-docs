@@ -1,0 +1,14 @@
+[{
+    "text": "官方网站",
+    "link": "https://pcmanager.microsoft.com"
+},
+{
+    "text": "关注我们",
+    "items": [
+        { "text": "官方微博", "link": "https://weibo.com/mspcmanager" },
+        { "text": "官方公众号", "link": "http://weixin.qq.com/r/VyhzazfExmq5rXMI931F" },
+        { "text": "官方 QQ 群", "link": "https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR7Jc7yMooGtIh8-T51_PVotUNkZSWVJSQVo4SFZVUUtDSDVHRjA4MTFMWi4u" },
+        { "text": "官方 QQ 频道", "link": "https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=2bVm80&from=246610&biz=ka#/pc" },
+        { "text": "官方 Discord", "link": "https://discord.com/invite/FTDTddsPgd" }
+    ]
+}]
