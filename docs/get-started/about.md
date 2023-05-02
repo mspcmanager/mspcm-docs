@@ -6,7 +6,7 @@
 自 1.2.4.0 起，微软电脑管家正式向非中国大陆地区发行，中国大陆用户请到中文官网下载微软电脑管家以体验新功能。
 
 同时，您可以从以下方式来认证该软件是否属于 Microsoft。 
-1. [Microsoft Community](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%BE%AE%E8%BD%AF%E7%94%B5%E8%84%91%E7%AE%A1/4a460771-247c-4c3d-865b-5dfa401808ff) 中由审阅人回答，并被标记为“答案”的答复；亦或者是[介绍微软电脑管家的帖子](https://answers.microsoft.com/zh-hans/protect/forum/all/%E5%BE%AE%E8%BD%AF%E7%94%B5%E8%84%91%E7%AE%A1/489a6cca-17cb-47df-95da-5d31bd95a06b)。
+1. [Microsoft Community](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%BE%AE%E8%BD%AF%E7%94%B5%E8%84%91%E7%AE%A1/4a460771-247c-4c3d-865b-5dfa401808ff) 中由审阅人回答，并被标记为“答案”的答复；亦或者是[介绍微软电脑管家的帖子](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%BE%AE%E8%BD%AF%E7%94%B5%E8%84%91%E7%AE%A1/489a6cca-17cb-47df-95da-5d31bd95a06b)。
 
 2. MSPCManager.exe 与软件安装包的数字签名。
 
