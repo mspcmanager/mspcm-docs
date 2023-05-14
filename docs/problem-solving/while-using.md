@@ -55,8 +55,9 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 
 事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志：提交其它问题的 Log》](../appendix/feedback-bugs#提交其它问题的-log)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
 
-## "无法完成当前操作"
+## "无法完成当前操作" / "电脑管家服务加载失败"
 问题图例：![](../assets/problem-solving/while-using/service-error/unable-to-proceed.png)
+![](../assets/problem-solving/while-using/service-error/unable-to-load-service.png)
 解决方案：
 1. 按下 Windows 徽标键+R，输入“services.msc”并回车
 
