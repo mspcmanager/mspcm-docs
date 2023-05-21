@@ -14,7 +14,25 @@
 
 或者将 DNS 更换为 223.5.5.5 等其它可靠 IPv4 DNS 后再重试使用在线安装包。（需要帮助？请参阅[《如何更改 DNS》](../appendix/change-DNS)）
 
-2. 请使用免安装版，请在群文件查找、向管理员获取或 [点击这里下载](https://aka.ms/WMOnlineZip10000_1.2.9.8)。（一般被命名为“PCManagerFiles_<版本号>.zip”）
+2. 请使用免安装版，请在群文件查找、向管理员获取。（一般被命名为“PCManagerFiles_<版本号>.zip”）
+
+<details>
+
+<summary>你也可以通过短链接下载</summary>
+
+```URL
+https://aka.ms/WMOnlineZip10000_<版本号>
+```
+
+版本号请在[《公开最新版本号及查询方式》](../appendix/check-version)中找到全称版本号。
+
+例如版本号为 3.0.0.2，则链接如下：
+
+```URL
+https://aka.ms/WMOnlineZip10000_3.0.0.2
+```
+
+</details>
 
 **特别提示：在使用免安装版之前，请先参阅[《提交日志：提交安装失败的 Log》](../appendix/feedback-bugs#提交安装失败的-log)来提交你的安装日志后，再使用免安装版，以便我们及时地修复该问题。**
 
