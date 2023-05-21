@@ -1,7 +1,10 @@
 {
   "name": "mspcm-docs",
-  "version": "1.0.0",
-  "description": "The unofficial document for Microsoft PC Manager, maintained by MSPCM administrators.",
+  "version": "1.1.0",
+  "description": "An unofficial document for Microsoft PC Manager, maintained by administrators of official QQ groups.",
+  "keywords": [
+    "Microsoft PC Manager", "PC Manager", "Microsoft", "docs"
+  ],
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -12,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/mspcmanager/mspcm-docs.git"
   },
-  "author": "MSPCM administrators",
+  "author": "MSPCManager administrators",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/mspcmanager/mspcm-docs/issues"
