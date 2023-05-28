@@ -15,9 +15,9 @@
 注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。
 
 ### 📣 参与注意 / Tips  
-如果您要参与本项目，您可以在 issue 中提出建议，我们将尽快回复。  
+如果您要参与本项目，您可以在 [Issues](https://github.com/mspcmanager/mspcm-docs/issues) 中提出建议，我们将尽快回复。  
 
-如果您要提交 PR，我们同样为您的贡献而高兴，不过您需要先了解以下内容，否则您的 PR 暂不予 merge，或要求您修改后 merge。  
+如果您要[提交 PR](https://github.com/mspcmanager/mspcm-docs/pulls)，我们同样为您的贡献而高兴，不过您需要先了解以下内容，否则您的 PR 暂不予 merge，或要求您修改后 merge。  
 
 1. 请勿提交与管家无关或对管家无故诋毁的内容。
 2. 请在提交 commit 时遵守 commit message 的相关规则。您可以参考 → <https://zhuanlan.zhihu.com/p/182553920>  
@@ -48,7 +48,7 @@ d. 启动开发环境：
 ```shell
 pnpm run dev
 ```
-d. 启动生产环境，将文档打包成网页文件：  
+e. 启动生产环境，将文档打包成网页文件：  
 ```shell
 pnpm run build
 ```
