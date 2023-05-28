@@ -36,16 +36,20 @@ a. 将源码 clone 到本地：
 ```shell
 git clone https://github.com/mspcmanager/mspcm-docs
 ```
-b. 安装依赖的模块：  
+b. 安装 PNPM
 ```shell
-npm install
+npm install pnpm -g
 ```
-c. 启动开发环境：  
+c. 安装依赖的模块：  
 ```shell
-npm run dev
+pnpm install
+```
+d. 启动开发环境：  
+```shell
+pnpm run dev
 ```
 d. 启动生产环境，将文档打包成网页文件：  
 ```shell
-npm run build
+pnpm run build
 ```
 然后在 `/dist` 目录中，您可以查收打包好的文件，并将其部署到您的服务器中。~（不过应该没人会把咱文档部署到自己的服务器上吧）~
