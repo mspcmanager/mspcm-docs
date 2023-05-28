@@ -20,9 +20,27 @@
     {
         "avatar": "https://www.github.com/goo-aw233.png",
         "name": "事猫猫欸",
-        "title": "文档贡献者（搁那重新造轮子的）",
+        "title": "文档贡献者",
         "links": [
               { "icon": "github", "link": "https://github.com/goo-aw233" }
+          ]
+      },
+
+      {
+        "avatar": "https://www.github.com/LiCaoZ.png",
+        "name": "LiCaoZ",
+        "title": "文档贡献者",
+        "links": [
+              { "icon": "github", "link": "https://github.com/LiCaoZ" }
+          ]
+      },
+
+      {
+        "avatar": "https://www.github.com/faq0.png",
+        "name": "Untitled",
+        "title": "文档贡献者",
+        "links": [
+              { "icon": "github", "link": "https://github.com/faq0" }
           ]
       }
 ]
