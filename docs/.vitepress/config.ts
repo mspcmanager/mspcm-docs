@@ -11,7 +11,7 @@ export default defineConfig({
     description: '微软电脑管家使用及问题帮助文档',
     appearance: true,
     lastUpdated: true,
-    cleanUrls: true,
+    cleanUrls: false,
 
     // STEP 2 ---- 目录配置
     base: '/',
