@@ -1,0 +1,42 @@
+name: Deploy to Github Pages
+on: 
+  push:
+    branches: 
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  main:
+    name: Deploy to Github Pages
+    runs-on: ubuntu-latest
+    steps:
+     - name: 🧐 Checkout
+       id: checkout
+       uses: actions/checkout@v3
+
+     - name: 🔧 Setup pnpm
+       id: setup_pnpm
+       uses: pnpm/action-setup@v2
+       with:
+         version: latest
+
+     - name: 🚧 Setup dependencies
+       id: setup_deps
+       run: |
+         pnpm install
+
+     - name: 📦 Build production pages
+       id: build
+       run: |
+         echo "Renaming should be executed here."
+         pnpm run build
+
+     - name: 🚀 Deploy to Github Pages
+       id: deploy
+       uses: JamesIves/github-pages-deploy-action@v4
+       with:
+         folder: dist
+         branch: main
+         token: ${{ secrets.DEPLOY_TOKEN }}
