@@ -14,7 +14,7 @@ export default defineConfig({
     cleanUrls: false,
 
     // STEP 2 ---- 目录配置
-    base: '/docs/',
+    base: '/mspcm-docs/',
     srcDir: '.',
     outDir: '../dist',
 //    locales: {
