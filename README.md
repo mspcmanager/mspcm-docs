@@ -4,8 +4,7 @@
 ![文档协议](https://img.shields.io/github/license/mspcmanager/mspcm-docs) 
 ![文档版本](https://img.shields.io/github/package-json/v/mspcmanager/mspcm-docs) 
 ![Release 版本](https://img.shields.io/github/v/release/mspcmanager/mspcm-docs?include_prereleases) 
-![issue](https://img.shields.io/github/issues/mspcmanager/mspcm-docs) 
-![PR](https://img.shields.io/github/issues-pr/mspcmanager/mspcm-docs) 
+![ci 状态](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
 
 ### 👏 介绍 / Introduction  
 这是**微软官方**出品的电脑辅助软件「微软电脑管家」的使用文档，能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！   
