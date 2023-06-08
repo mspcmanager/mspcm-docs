@@ -30,7 +30,8 @@ jobs:
      - name: 📦 Build production pages
        id: build
        run: |
-         echo "Renaming should be executed here."
+         mv docs/.vitepress/config.ts docs/.vitepress/config.ts.bak
+         mv docs/.vitepress/config.pages.ts docs/.vitepress/config.ts
          pnpm run build
 
      - name: 🚀 Deploy to Github Pages
