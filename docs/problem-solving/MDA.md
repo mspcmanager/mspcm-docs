@@ -46,7 +46,7 @@
 
 1. 从这里下载 [dControl](https://www.sordum.org/files/downloads.php?st-defender-control)。
 2. 下载完成后打开压缩文件，将里面的“dControl.zip”打开并解压到任意文件夹。（压缩包密码：sordum）
-![](../assets/problem-solving/MDA/other-anti-virus-being-used/Unzip-dControl.png)
+![](../assets/problem-solving/MDA/other-anti-virus-being-used/unzip-dControl.png)
 
 然后运行里面的“dControl.exe”
 ![](../assets/problem-solving/MDA/other-anti-virus-being-used/dControl-program.png)
