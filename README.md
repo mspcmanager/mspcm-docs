@@ -8,9 +8,9 @@
 ### 👏 介绍 / Introduction  
 这是**微软官方**出品的电脑辅助软件「微软电脑管家」的使用文档，能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！   
 
-本文档基于 VitePress 进行构建，默认的站点运行目录为根目录。您可以在我们的 [Github Pages](https://mspcmanager.github.io/mspcm-docs/) 上查看最新的文档构建预览。  
+本文档基于 VitePress 进行构建，默认的站点运行目录为根目录。您可以在我们的 [Github Pages](https://mspcmanager.github.io/mspcm-docs/) 上查看最新已构建好的文档。  
 
-注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。**本文档基于 [CC BY-NC-ND-SA 4.0  协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans)，请遵守相关协议规定。**
+注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。**本文档基于 [CC BY-NC-ND 4.0  协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans)，请遵守相关协议规定。**
 
 ### 📣 参与注意 / Tips  
 如果您要参与本项目，您可以在 [Issues](https://github.com/mspcmanager/mspcm-docs/issues) 中提出建议，我们将尽快回复。  
@@ -22,7 +22,8 @@
   * 错误范例：新增内容
   * 正确范例：docs: 新增内容
 3. 对于文档中的内容，请在中英文之间打上空格以保持美观。
-4. 请遵守一定的文件/代码内命名规则。
+4. 请遵守一定的文件/代码内命名规则，如驼峰命名法。
+5. 转载相关文献时遵守一定的规定。
 
 ### 🖥️ 部署 / Deployment
 您可以选择以下两种方式部署文档：  
