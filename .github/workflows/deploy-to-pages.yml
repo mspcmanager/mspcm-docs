@@ -33,6 +33,7 @@ jobs:
          mv docs/.vitepress/config.ts docs/.vitepress/config.ts.bak
          mv docs/.vitepress/config.pages.ts docs/.vitepress/config.ts
          pnpm run build
+         cp docs/assets/logo.png dist/assets/
 
      - name: 🚀 Deploy to Github Pages
        id: deploy
