@@ -1,7 +1,6 @@
 # 微软电脑管家使用文档
 ![微软电脑管家 3.0](https://pcmanager.microsoft.com/assets/digitalLivingMain-phone.png)  
 
-![文档协议](https://img.shields.io/github/license/mspcmanager/mspcm-docs) 
 ![文档版本](https://img.shields.io/github/package-json/v/mspcmanager/mspcm-docs) 
 ![Release 版本](https://img.shields.io/github/v/release/mspcmanager/mspcm-docs?include_prereleases) 
 ![ci 状态](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
@@ -11,7 +10,7 @@
 
 本文档基于 VitePress 进行构建，默认的站点运行目录为根目录。您可以在我们的 [Github Pages](https://mspcmanager.github.io/mspcm-docs/) 上查看最新的文档构建预览。  
 
-注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。
+注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。**本文档基于 [CC BY-NC-ND-SA 4.0  协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans)，请遵守相关协议规定。**
 
 ### 📣 参与注意 / Tips  
 如果您要参与本项目，您可以在 [Issues](https://github.com/mspcmanager/mspcm-docs/issues) 中提出建议，我们将尽快回复。  

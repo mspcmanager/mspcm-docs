@@ -58,7 +58,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/mspcmanager/mspcm-docs' }
         ],
         footer: {
-            message: '本文档基于 Apache 2.0 协议发布',
+            message: '本文档基于 CC BY-NC-ND 4.0 协议发布',
             copyright: 'Copyright © 2023 Microsoft PC Manager Administrators'
         },
         search: {
