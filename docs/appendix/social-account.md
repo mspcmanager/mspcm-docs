@@ -1,15 +1,17 @@
-## 中国大陆上的社交媒体账号
+# 官方社交媒体账号
 
 :::warning 注意
 除以下提到的社交媒体账号之外，我们并未在其他社交媒体上（如哔哩哔哩、抖音等）开通官方账号，请各位小伙伴注意甄别真假！
 :::
 
+## 中国大陆社交媒体账号
+
 ### 微博
-https://weibo.com/u/7763750711
+<https://weibo.com/u/7763750711>
 ![](../assets/appendix/social-account/weibo.png)
 
 ### 小红书
-https://www.xiaohongshu.com/user/profile/5f2669c8000000000100a589
+<https://www.xiaohongshu.com/user/profile/5f2669c8000000000100a589>
 ![](../assets/appendix/social-account/xiaohongshu.png)
 
 ### 微信
@@ -26,16 +28,16 @@ QQ 频道：[邀请链接](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&
 ## 海外社交媒体账号
 
 ### Discord
-https://discord.com/invite/FTDTddsPgd
+<https://discord.com/invite/FTDTddsPgd>
 ![](../assets/appendix/social-account/discord.png)
 
 ### Reddit
-https://www.reddit.com/r/MicrosoftPcManager
+<https://www.reddit.com/r/MicrosoftPcManager>
 ![](../assets/appendix/social-account/reddit.png)
 
 ### Facebook (Traditional Chinese)
-https://www.facebook.com/microsoft.pcmanager.tw
+<https://www.facebook.com/microsoft.pcmanager.tw>
 ![](../assets/appendix/social-account/facebook.png)
 
 ### WhatsApp
-https://chat.whatsapp.com/F1TS77Lqbd1JXakJn7JaQW
+<https://chat.whatsapp.com/F1TS77Lqbd1JXakJn7JaQW>
