@@ -19,7 +19,6 @@
     "url": "git+https://github.com/mspcmanager/mspcm-docs.git"
   },
   "author": "MSPCManager administrators",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/mspcmanager/mspcm-docs/issues"
   },
