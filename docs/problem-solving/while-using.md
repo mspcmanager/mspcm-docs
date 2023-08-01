@@ -53,7 +53,7 @@ b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序。
 
 c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步骤。
 
-事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志：提交其它问题的 Log》](../appendix/feedback-bugs#提交其它问题的-log)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
+事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志》](../appendix/feedback-bugs)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
 
 ## "无法完成当前操作" | "电脑管家服务加载失败"
 问题图例：
@@ -69,7 +69,7 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 3. 尝试重新运行“垃圾清理”任务。
 ![](../assets/problem-solving/while-using/service-error/cleanup.png)
 
-若报错依旧，请参阅[《提交日志：提交其它问题的 Log》](../appendix/feedback-bugs#提交其它问题的-log)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
+若报错依旧，请参阅[《提交日志》](../appendix/feedback-bugs)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
 
 ## 设置页无法改动选项
 问题图例：![](../assets/problem-solving/while-using/unable-to-set.png)
@@ -92,7 +92,7 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 2. 在“兼容性”视图中勾选“以兼容模式运行这个程序：”，并选择“Windows 8”，完成后点击“应用(A)”，然后重新启动微软电脑管家即可。
 ![](../assets/problem-solving/while-using/blank-background/compatibility.png)
 
-3. 请转到[【如何提交 Log：《提交其它问题的 Log》】](../appendix/feedback-bugs)）的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们。
+3. 请参阅[《提交日志》](../appendix/feedback-bugs)的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们。
 
 ## 系统资源占用过高
 问题图例：（演示版本：1.2.3.2.16851）
