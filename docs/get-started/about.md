@@ -17,7 +17,7 @@
 
 微软电脑管家官网：https://pcmanager.microsoft.com
 
-微软电脑管家英文站点：https://pcmanager-en.microsoft.com
+微软电脑管家英文站点：https://pcmanager.microsoft.com/en-us
 
 社群渠道专属下载链接：https://aka.ms/PCManagerOFL30101
 

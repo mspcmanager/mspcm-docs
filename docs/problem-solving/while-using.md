@@ -94,6 +94,40 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 
 3. 请参阅[《提交日志》](../appendix/feedback-bugs)的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们。
 
+## 缺少弹窗管理选项
+问题图例：![](../assets/problem-solving/while-using/pop-up-mgr-missing/without-pop-up-mgr.png)
+
+问题引起：目前仅在中国大陆地区开放“弹窗管理”功能。
+
+解决方案：
+1. 按下 Windows 徽标键 + R，打开运行，输入 ms-settings:appsfeatures 并确认。
+2. 找到名为“微软电脑管家”的选项，点击“...”，再点击“卸载”。
+![](../assets/problem-solving/while-using/pop-up-mgr-missing/uninstall.png)
+
+3. 卸载完成后重启计算机。
+4. 按下 Windows 徽标键 + R，打开运行，输入 ms-settings:regionlanguage 并确认。
+5. 在“国家或地区”的选项中，将您的区域改为“中国”。
+![](../assets/problem-solving/while-using/pop-up-mgr-missing/setting-the-region.png)
+
+6. 运行微软电脑管家安装程序，完成后再将区域改回原来的即可。
+![](../assets/problem-solving/while-using/pop-up-mgr-missing/pop-up-mgr.png)
+
+## 深度清理中“应用缓存”可选清理少
+问题图例：![](../assets/problem-solving/while-using/lack-of-cleanup-options/lack-of-cleanup-options.png)
+
+解决方案：
+1. 按下 Windows 徽标键 + R，打开运行，输入 ms-settings:appsfeatures 并确认。
+2. 找到名为“微软电脑管家”的选项，点击“...”，再点击“卸载”。
+![](../assets/problem-solving/while-using/lack-of-cleanup-options/uninstall.png)
+
+3. 卸载完成后重启计算机。
+4. 按下 Windows 徽标键 + R，打开运行，输入 ms-settings:regionlanguage 并确认。
+5. 在“国家或地区”的选项中，将您的区域改为“中国”。
+![](../assets/problem-solving/while-using/lack-of-cleanup-options/setting-the-region.png)
+
+6. 运行微软电脑管家安装程序，完成后再将区域改回原来的即可。
+![](../assets/problem-solving/while-using/lack-of-cleanup-options/full-cleanup-options.png)
+
 ## 系统资源占用过高
 问题图例：（演示版本：1.2.3.2.16851）
 ![](../assets/problem-solving/while-using/high-occupancy/MDASer.png)
