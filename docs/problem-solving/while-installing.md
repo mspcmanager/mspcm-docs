@@ -7,7 +7,8 @@
 问题引起：
 
 1. 您的网络环境较差，导致与 Microsoft 服务器通信不佳。（仅在线安装包）
-2. %TEMP% 文件夹无法被安装程序正常访问或 PowerShell 脚本被第三方软件拦截。	（在线/离线安装包）
+
+2. %TEMP% 文件夹无法被安装程序正常访问，或 PowerShell 脚本被第三方软件拦截。（在线/离线安装包）
 
 解决方案：
 1. 请在群文件、向管理员获取离线包或 [点击这里下载](https://aka.ms/PCManagerOFL30101)。
@@ -43,7 +44,7 @@ https://aka.ms/WMOnlineZip10000_3.0.0.2
 
 ![](../assets/problem-solving/while-installing/download-error/exact-files.png)
 
-2. 打开 C:/Program Files 目录，并将“Microsoft PC Manager”文件夹复制。
+2. 打开 <code>C:/Program Files</code> 目录，并将 <code>Microsoft PC Manager</code> 文件夹复制进去。
 
 ![](../assets/problem-solving/while-installing/download-error/moving-folders.png)
 
@@ -51,7 +52,7 @@ https://aka.ms/WMOnlineZip10000_3.0.0.2
 
 ![](../assets/problem-solving/while-installing/download-error/continue-moving.png)
 
-4. 然后在“Microsoft PC Manager”文件夹里找到名为“MSPCManager.exe”的文件，左键选择它，然后按下 Shift+F10（如果是 Windows 10 或经典右键菜单的 Windows 11 可直接右键），在弹出的菜单栏中选择“发送到(N)”>“桌面快捷方式”。
+4. 然后在 <code>Microsoft PC Manager</code> 文件夹里找到名为 <code>MSPCManager.exe</code> 的文件，左键选择它，然后按下 Shift + F10（如果是 Windows 10 或经典右键菜单的 Windows 11 可直接右键），在弹出的菜单栏中选择“发送到(N)”>“桌面快捷方式”。
 
 ![](../assets/problem-solving/while-installing/download-error/create-shortcut.png)
 

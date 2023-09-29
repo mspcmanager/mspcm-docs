@@ -17,11 +17,10 @@
 
 微软电脑管家官网：https://pcmanager.microsoft.com
 
-微软电脑管家英文站点：https://pcmanager.microsoft.com/en-us
-
 社群渠道专属下载链接：https://aka.ms/PCManagerOFL30101
 
 从 WinGet 获取：
+
 ```PowerShell
 winget install MSPCManager
 ````
@@ -29,7 +28,8 @@ winget install MSPCManager
 特别提示：[用于早期测试的站点](https://windowsmaster-test.chinacloudsites.cn)、[旧官网](https://cn.bing.com/guanjia)与下载服务仅托管于 Microsoft 的合作伙伴世纪互联，但不代表微软电脑管家由世纪互联或其它第三方直接或间接地开发。
 
 ## 支持的 Windows 版本
-微软电脑管家的运行依赖于部分新版本系统组件，目前仅兼容 x86_64 的 Windows 11、Windows Server 2019 及以上、Windows 10 1809 及以上操作系统，不支持更低的操作系统版本和非 x86_64 的 CPU/系统，否则可能会提示以下内容。
+微软电脑管家的运行依赖于部分新版本系统组件，目前仅兼容 x64 的 Windows 11、Windows 10 1809 及更新版本、Windows Server 2019 及以上的操作系统，不支持更低的操作系统版本和非 x64 的操作系统，否则可能会提示以下内容。
+
 ![](../assets/get-started/about/unsupported-system.png)
 
 ## 为什么微软电脑管家会自动出现在我的计算机上且无法卸载
