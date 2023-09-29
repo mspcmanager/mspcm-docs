@@ -54,9 +54,10 @@ b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序。
 c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步骤。
 
 d.如果双击Edge WebView2（Edge Update）安装程序没有反应请执行以下步骤
-docs/assets/problem-solving/while-using/Edge-WebView-2/b0a1ef52-edb2-4786-b599-6a18bde43e7e.png
+![](https://github.com/mspcmanager/mspcm-docs/blob/b35bf13939cd8c39d2f0ddef57e3e51915a21664/docs/assets/problem-solving/while-using/Edge-WebView-2/b0a1ef52-edb2-4786-b599-6a18bde43e7e.png)
 按下win+R输入 regedit 回车在注册表编辑器的地址栏输入:计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe
 回车后删除MicrosoftEdgeUpdate.exe注册表项（文件夹），然后再打开Microsoft Edge WebView2浏览器安装程序
+
 
 事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志》](../appendix/feedback-bugs)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
 
