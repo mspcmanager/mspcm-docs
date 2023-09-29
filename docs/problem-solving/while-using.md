@@ -23,9 +23,11 @@
 
 4. 您的网络环境较差，或微软电脑管家主程序无法联网，导致与 Microsoft 通信不佳。
 
-5. 其它原因。
+5. 注册表引起的 Microsoft Edge (WebView 2 Runtime) 安装程序错误。
 
-解决方案：（请先 **退出微软电脑管家主程序** 。）
+6. 其它原因。
+
+解决方案：（请先 **退出微软电脑管家主程序** ）
 
 1. 请尝试 [下载 Microsoft Edge WebView2](https://go.microsoft.com/fwlink/?linkid=2124701) 并安装。（需要右键安装程序，选择“以管理员身份运行”）
 
@@ -53,13 +55,25 @@ b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序。
 
 c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步骤。
 
-d.如果双击Edge WebView2（Edge Update）安装程序没有反应请执行以下步骤
-![](../assets/problem-solving/while-using/Edge-WebView-2/b0a1ef52-edb2-4786-b599-6a18bde43e7e.png)
-按下win+R输入 regedit 回车在注册表编辑器的地址栏输入:计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe
-回车后删除MicrosoftEdgeUpdate.exe注册表项（文件夹），然后再打开Microsoft Edge WebView2浏览器安装程序
+5. 请参阅[《Microsoft Edge WebView 2 Runtime 安装程序无法打开》](#microsoft-edge-webview-2-runtime-安装程序无法打开)的章节说明。
 
+若依旧报错，请先参阅[《提交日志》](../appendix/feedback-bugs)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
 
-事已至此，若依旧报错，亦或者是根本不出现 Microsoft Edge WebView2 Runtime 的安装程序页面，请先参阅[《提交日志》](../appendix/feedback-bugs)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
+## Microsoft Edge WebView 2 Runtime 安装程序无法打开
+问题引起：映像劫持引起的安装程序错误重定向。
+解决方案：
+1. 从 [OneDrive](https://gbcs6-my.sharepoint.com/:u:/g/personal/gucats_gbcs6_onmicrosoft_com/ESvGdSUKfTtIrKfkEmlC3AABkDVyQwf3nWYcbc5tC1NiUg?e=rkTobg) 下载 <code>Microsoft Edge Setup Unlocker.reg</code> 并导入到注册表。或者自行创建 txt 文档，输入以下内容并保存后将后缀格式改为 <code>.reg</code> 再导入。
+```
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe]
+"DisableExceptionChainValidation"=dword:00000000
+```
+
+2. 重启计算机并尝试重新运行 Microsoft Edge WebView 2 Runtime 安装程序。
+
 
 ## "无法完成当前操作" | "电脑管家服务加载失败"
 问题图例：

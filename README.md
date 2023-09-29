@@ -15,7 +15,7 @@
 本文档基于 VitePress 进行构建，默认的站点运行目录为根目录。您可以在我们的 [Github Pages](https://mspcmanager.github.io/mspcm-docs/) 上查看最新已构建好的文档。
 
 ### 📣 参与注意 / Tips  
-详情见[CONTRIBUTING.md](./CONTRIBUTING.md)。
+详情见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ### 🖥️ 部署 / Deployment
 您可以选择以下两种方式部署文档：  
