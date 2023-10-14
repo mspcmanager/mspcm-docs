@@ -6,13 +6,15 @@
 ![ci 状态](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
 
 ### 👏 介绍 / Introduction  
-这是**微软官方**出品的电脑辅助软件「微软电脑管家」的使用文档，能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！   
+这是 **Microsoft 官方**出品的电脑辅助软件「微软电脑管家」的使用文档，能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！   
 
 注意：这并不是微软及其子公司官方组织编写的文档，文档编写者并非微软及其子公司的员工，本文档中的内容也与微软及其子公司本身无关。**本文档基于 [CC BY-NC-ND 4.0  协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans)，请遵守相关协议规定。**  
 
 我们并没有在微博、小红书、微信公众号之外设置社交媒体账号，您在其他平台遇到的**所谓自称官方的账号均为假冒**，请注意甄别！  
 
 本文档基于 VitePress 进行构建，默认的站点运行目录为根目录。您可以在我们的 [Github Pages](https://mspcmanager.github.io/mspcm-docs/) 上查看最新已构建好的文档。
+
+_*请注意，本文档部分内容引用了来自第三方（即非 Microsoft 官方）网页的链接。这些网页似乎提供了准确、安全的信息以帮助您解决问题。但是，请仍然留意网页中推广的通常被归类为 PUP（Potentially Unwanted Products，潜在有害产品）的广告。在您下载及安装文件或应用前，请彻底地研究网页中推广的任何产品。_
 
 ### 📣 参与注意 / Tips  
 详情见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
