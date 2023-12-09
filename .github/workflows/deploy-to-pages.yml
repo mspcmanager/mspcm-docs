@@ -30,8 +30,8 @@ jobs:
      - name: 📦 Build production pages
        id: build
        run: |
-         mv docs/.vitepress/config.ts docs/.vitepress/config.ts.bak
-         mv docs/.vitepress/config.pages.ts docs/.vitepress/config.ts
+         mv docs/.vitepress/config.mts docs/.vitepress/config.mts.bak
+         mv docs/.vitepress/config.pages.mts docs/.vitepress/config.mts
          pnpm run build
          cp docs/assets/logo.png dist/assets/
 
