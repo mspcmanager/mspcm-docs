@@ -61,8 +61,8 @@ export default defineConfig({
             message: '本文档基于 CC BY-NC-SA 4.0 协议发布',
             copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
         },
-        search: {
-            provider: 'local'
-        }
+        // search: {
+        //     provider: 'local'
+        // }
     }
 })
