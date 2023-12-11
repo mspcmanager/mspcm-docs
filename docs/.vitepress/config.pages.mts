@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { version } from '../../package.json'
 
 import menuNav from '../data/navigation.json'
 import menuSidebar from '../data/sidebar.json'
@@ -52,7 +51,7 @@ export default defineConfig({
         sidebar: menuSidebar,
         editLink: {
             pattern: 'https://github.com/mspcmanager/mspcm-docs/edit/main/docs/:path',
-            text: '在 Github 上编辑此页'
+            text: '在 GitHub 上编辑此页'
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mspcmanager/mspcm-docs' }
