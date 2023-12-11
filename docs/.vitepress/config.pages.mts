@@ -36,7 +36,7 @@ export default defineConfig({
         darkModeSwitchLabel: '主题',
         sidebarMenuLabel: '菜单',
         returnToTopLabel: '回到顶部',
-        langMenuLabel: '多语言',
+        langMenuLabel: '语言',
         outlineTitle: '当前页',
         logo: '/assets/logo.png',
         lastUpdatedText: '最近更新时间',
@@ -60,8 +60,8 @@ export default defineConfig({
             message: '本文档基于 CC BY-NC-SA 4.0 协议发布',
             copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
         },
-        search: {
-            provider: 'local'
-        }
+        // search: {
+        //     provider: 'local'
+        // }
     }
 })
