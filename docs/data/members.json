@@ -11,7 +11,7 @@
    {
       "avatar": "https://www.github.com/crrashh1542.png",
       "name": "云萧是个咕咕怪！",
-      "title": "发起者",
+      "title": "项目发起者",
       "links": [
          { "icon": "github", "link": "https://github.com/crrashh1542" }
        ]
@@ -33,5 +33,14 @@
        "links": [
           { "icon": "github", "link": "https://github.com/faq0" }
        ]
-    }
+    },
+
+   {
+      "avatar": "https://www.github.com/SplashCN123.png",
+      "name": "SplashCN",
+      "title": "文档贡献者",
+      "links": [
+         { "icon": "github", "link": "https://github.com/SplashCN123" }
+      ]
+   },
 ]
