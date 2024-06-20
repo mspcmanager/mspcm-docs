@@ -25,6 +25,6 @@
   "homepage": "https://github.com/mspcmanager/mspcm-docs#readme",
   "dependencies": {
     "less": "^4.2.0",
-    "vitepress": "^1.0.0-rc.32"
+    "vitepress": "^1.2.3"
   }
 }
