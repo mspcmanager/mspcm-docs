@@ -1,20 +1,20 @@
 ---
 layout: home
-title: 首页
+title: Home
 
 hero:
-  name: 微软电脑管家
-  text: 微软官方出品优化软件
-  tagline: 简单无打扰，安全又安心。
+  name: Microsoft PC Manager
+  text: A PC optimizator by Microsoft
+  tagline: Safeguard your PC in a quiet and reliable way
   image:
     src: /assets/logo.png
-    alt: 微软电脑管家
+    alt: Microsoft PC Manager
   actions:
     - theme: brand
-      text: 阅读文档
+      text: Read documentaion
       link: /get-started/agreements-and-declarations
     - theme: alt
-      text: 立即下载
+      text: Download
       link: https://pcmanager.microsoft.com
 ---
 
@@ -29,8 +29,8 @@ import members from "./data/members.json"
 
 <VPTeamPage>
     <VPTeamPageTitle>
-        <template #title>文档维护人员</template>
-        <template #lead>请注意，我们只是该软件 QQ 社群的管理员，并非微软公司的员工，与微软公司无关系，同时也不与微软公司发生任何利益往来。</template>
+        <template #title>Documentation maintainers</template>
+        <template #lead>Please note that we are only administrators in official chat groups instead of Microsoft employees, and we have neither affiliation nor any beneficial relationship with Microsoft Corporation.</template>
     </VPTeamPageTitle>
     <VPTeamMembers :members="members"/>
 </VPTeamPage>
