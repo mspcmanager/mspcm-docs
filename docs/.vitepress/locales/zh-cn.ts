@@ -28,9 +28,6 @@ export default defineConfig({
         footer: {
             message: '本文档基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a> 发布',
             copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
-        },
-        search: {
-            provider: 'local'
         }
     }
 })

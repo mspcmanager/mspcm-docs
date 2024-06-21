@@ -15,9 +15,6 @@ export default defineConfig({
         footer: {
             message: 'This documentation is released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
             copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
-        },
-        search: {
-            provider: 'local'
         }
     }
 })

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-// import imageLogo from '../assets/logo.png'
 
 import zhCn from './locales/zh-cn'
 import en from './locales/en'
@@ -17,7 +16,9 @@ export default defineConfig({
     },
 
     themeConfig: {
-        // logo: imageLogo,
+        search: {
+            provider: 'local'
+        },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mspcmanager/mspcm-docs' }
         ]
