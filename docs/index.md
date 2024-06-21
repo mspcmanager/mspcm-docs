@@ -1,20 +1,20 @@
 ---
 layout: home
-title: 首页
+title: Home
 
 hero:
-  name: 微软电脑管家
-  text: 微软官方出品优化软件
-  tagline: 简单无打扰，安全又安心。
+  name: Microsoft PC Manager
+  text: A PC optimizator by Microsoft
+  tagline: Safeguard your PC in a quiet and reliable way
   image:
     src: /assets/logo.png
-    alt: 微软电脑管家
+    alt: Microsoft PC Manager
   actions:
     - theme: brand
-      text: 阅读文档
+      text: Read documentaion
       link: /get-started/agreements-and-declarations
     - theme: alt
-      text: 立即下载
+      text: Download
       link: https://pcmanager.microsoft.com
 ---
 
@@ -24,13 +24,55 @@ hero:
 
 <script setup>
 import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
-import members from "./data/members.json"
+
+const members = [
+   {
+      avatar: 'https://www.github.com/goo-aw233.png',
+      name: 'goo-aw233',
+      title: 'Core Contributor',
+      links: [
+         { icon: 'github', link: 'https://github.com/goo-aw233' }
+      ]
+   },
+   {
+      avatar: 'https://www.github.com/crrashh1542.png',
+      name: 'crrashh1542',
+      title: 'Project Leader & Tech',
+      links: [
+         { icon: 'github', link: 'https://github.com/crrashh1542' }
+       ]
+    },
+    {
+       avatar: 'https://www.github.com/easycomputer1.png',
+       name: 'ecomter',
+       title: 'Contributor',
+       links: [
+          { icon: 'github', link: 'https://github.com/easycomputer1' }
+       ]
+    },
+    {
+       avatar: 'https://www.github.com/faq0.png',
+       name: 'Untitled',
+       title: '文档贡献者',
+       links: [
+          { icon: 'github', link: 'https://github.com/faq0' }
+       ]
+    },
+   {
+      avatar: 'https://www.github.com/SplashCN123.png',
+      name: 'SplashCN',
+      title: '文档贡献者',
+      links: [
+         { icon: 'github', link: 'https://github.com/SplashCN123' }
+      ]
+   }
+]
 </script>
 
 <VPTeamPage>
     <VPTeamPageTitle>
-        <template #title>文档维护人员</template>
-        <template #lead>请注意，我们只是该软件 QQ 社群的管理员，并非微软公司的员工，与微软公司无关系，同时也不与微软公司发生任何利益往来。</template>
+        <template #title>Documentation maintainers</template>
+        <template #lead>Please note that we are only administrators in official chat groups instead of Microsoft employees, and we have neither affiliation nor any beneficial relationship with Microsoft Corporation.</template>
     </VPTeamPageTitle>
-    <VPTeamMembers :members="members"/>
+    <VPTeamMembers :members='members'/>
 </VPTeamPage>
