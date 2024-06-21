@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 阅读文档
-      link: /get-started/agreements-and-declarations
+      link: ./get-started/agreements-and-declarations
     - theme: alt
       text: 立即下载
       link: https://pcmanager.microsoft.com
@@ -24,7 +24,49 @@ hero:
 
 <script setup>
 import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
-import members from "../data/members.json"
+
+const members = [
+    {
+        avatar: 'https://www.github.com/goo-aw233.png',
+        name: '事猫猫欸',
+        title: '文档主要贡献者',
+        links: [
+            { icon: 'github', link: 'https://github.com/goo-aw233' }
+        ]
+    },
+    {
+        avatar: 'https://www.github.com/crrashh1542.png',
+        name: '云萧是个咕咕怪！',
+        title: '项目发起者',
+        links: [
+            { icon: 'github', link: 'https://github.com/crrashh1542' }
+        ]
+    },
+    {
+        avatar: 'https://www.github.com/easycomputer1.png',
+        name: 'ecomter',
+        title: '文档贡献者',
+        links: [
+            { icon: 'github', link: 'https://github.com/easycomputer1' }
+        ]
+    },
+    {
+        avatar: 'https://www.github.com/faq0.png',
+        name: 'Untitled',
+        title: '文档贡献者',
+        links: [
+            { icon: 'github', link: 'https://github.com/faq0' }
+        ]
+    },
+    {
+        avatar: 'https://www.github.com/SplashCN123.png',
+        name: 'SplashCN',
+        title: '文档贡献者',
+        links: [
+            { icon: 'github', link: 'https://github.com/SplashCN123' }
+        ]
+    }
+]
 </script>
 
 <VPTeamPage>
@@ -32,5 +74,5 @@ import members from "../data/members.json"
         <template #title>文档维护人员</template>
         <template #lead>请注意，我们只是该软件 QQ 社群的管理员，并非微软公司的员工，与微软公司无关系，同时也不与微软公司发生任何利益往来。</template>
     </VPTeamPageTitle>
-    <VPTeamMembers :members="members"/>
+    <VPTeamMembers :members='members'/>
 </VPTeamPage>
