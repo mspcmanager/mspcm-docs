@@ -67,7 +67,7 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 
 5. 请参阅[《Microsoft Edge WebView 2 Runtime 安装程序无法打开》](#microsoft-edge-webview-2-runtime-安装程序无法打开)的章节说明。
 
-若依旧报错，请先参阅[《提交日志》](../appendix/feedback-bugs)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
+若依旧报错，请先参阅[《提交日志》](../appendix/submit-advice-n-feedback)，再转到[《如何使用镜像对 Windows 进行修复》](../appendix/repair-system-image#镜像修复)。
 
 ## Microsoft Edge WebView 2 Runtime 安装程序无法打开
 问题引起：映像劫持引起的安装程序错误重定向。
@@ -107,7 +107,7 @@ Windows Registry Editor Version 5.00
 
 ![](../assets/problem-solving/while-using/service-error/cleanup.png)
 
-若报错依旧，请参阅[《提交日志》](../appendix/feedback-bugs)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
+若报错依旧，请参阅[《提交日志》](../appendix/submit-advice-n-feedback)，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。完成后将微软电脑管家完全卸载后再重新安装重试。
 
 ## 设置页无法改动选项
 问题图例：
@@ -139,7 +139,7 @@ Windows Registry Editor Version 5.00
 
 ![](../assets/problem-solving/while-using/blank-background/compatibility.png)
 
-3. 请参阅[《提交日志》](../appendix/feedback-bugs)的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们。
+3. 请参阅[《提交日志》](../appendix/submit-advice-n-feedback)的章节说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们。
 
 ## 缺少弹窗管理选项
 问题图例：
