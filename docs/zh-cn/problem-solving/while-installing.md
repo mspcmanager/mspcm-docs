@@ -21,7 +21,7 @@
 
 <summary>你也可以通过短链接下载</summary>
 
-```URL
+```
 https://aka.ms/WMOnlineZip10000_<版本号>
 ```
 
@@ -29,7 +29,7 @@ https://aka.ms/WMOnlineZip10000_<版本号>
 
 例如版本号为 3.0.0.2，则链接如下：
 
-```URL
+```
 https://aka.ms/WMOnlineZip10000_3.0.0.2
 ```
 

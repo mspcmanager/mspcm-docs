@@ -75,7 +75,7 @@ c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步�
 
 1. 从 [OneDrive](https://gbcs6-my.sharepoint.com/:u:/g/personal/gucats_gbcs6_onmicrosoft_com/ESvGdSUKfTtIrKfkEmlC3AABkDVyQwf3nWYcbc5tC1NiUg?e=rkTobg) 下载 <code>Microsoft Edge Setup Unlocker.reg</code> 并导入到注册表。或者自行创建 txt 文档，输入以下内容并保存后将后缀格式改为 <code>.reg</code> 再导入。
 
-```Register
+```
 Windows Registry Editor Version 5.00
 
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe]
