@@ -22,7 +22,7 @@ export default defineConfig({
         nav: nav(),
         sidebar: sidebar(),
         editLink: {
-            pattern: 'https://github.com/mspcmanager/mspcm-docs/edit/main/docs/zh-cn/:path',
+            pattern: 'https://github.com/mspcmanager/mspcm-docs/edit/main/docs/:path',
             text: '在 GitHub 上编辑此页'
         },
         footer: {
