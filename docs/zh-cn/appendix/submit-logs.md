@@ -1,39 +1,31 @@
 # 如何提交日志文件
 
-从群文件、管理员或 [OneDrive](https://gbcs6-my.sharepoint.com/:u:/g/personal/gucats_gbcs6_onmicrosoft_com/EVxSCyMZ-aFGozjXUaHLCGwBey35ILXgQYrIuRDHrl9maw?e=4Ns9n5) 获取 <code>DebugToolForUser</code>。
+从群文件、管理员或 [OneDrive](hhttps://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EtKwa-2la71HmG2RxkB5lngBvvRt9CFOYsyJG_HOwYIzNA) 获取 `微软电脑管家辅助脚本_CMD.zip`。
 
-选择解压，并解压到 DebugToolForUser 文件夹目录下。
+选择解压，并提取到当前文件夹目录下（无需再新建文件夹）。
 
-![](../assets/appendix/submit-advice-n-feedback/extract-all.png)
+![](../assets/appendix/submit-logs/extract-all.png)
 
-完成后打开文件夹，双击 <code>DebugTool.exe</code> 并打开。
+完成后打开 MSPCManagerHelper 文件夹，双击 MSPCManagerHelper.bat 并打开。
 
-![](../assets/appendix/submit-advice-n-feedback/run-debugtool.png)
+![](../assets/appendix/submit-logs/run-bat.png)
 
-打开后点击“版本用户信息”，并将截图保存。
+打开后点根据提示，输入 `getLogs` 后按回车（不区分大小写）。
 
-![](../assets/appendix/submit-advice-n-feedback/user-info.png)
+![](../assets/appendix/submit-logs/input.png)
 
-点击“日志工具”，在弹出的窗口中点击“导出日志”，完成后点击“确定”。
+按任意键继续后，脚本会自动抓取日志、应用程序事件与微软电脑管家的 Dump 文件。
 
-![](../assets/appendix/submit-advice-n-feedback/retrieve-logs.png)
+![](../assets/appendix/submit-logs/working.png)
 
-完成后日志会导出到 <code>\DebugToolForUser\RetrievedLogs</code> 文件夹。
+在打开的 Windows 设置里，点击“Windows 规格”旁边的复制。
 
-![](../assets/appendix/submit-advice-n-feedback/logs-output.png)
+![](../assets/appendix/submit-logs/about.png)
 
-接着点击“开始抓取 crash dump”，在弹出的窗口中选择“Agree”，待抓取完成后点击“crash dump”。
+随后，将桌面生成的`微软电脑管家日志文件.zip` 与复制的 Windows 规格发送给软软小管家，并附上你在使用微软电脑管家时遇到的问题，及微软电脑管家版本。
 
-![](../assets/appendix/submit-advice-n-feedback/retrieve-crash-dump.png)
+:::warning 警告
+请不要把你获取到的 `MicrosoftPCManagerLogsFile.zip`、`MicrosoftPCManagerLogs 文件夹`及里面的<font color=red>任意文件</font>发给任何你不信赖的人
+:::
 
-最后点击“抓取当前 dump”，等待完成后抓取的 dump 会导出到 <code>\DebugToolForUser\dumps</code> 文件夹下。
-
-![](../assets/appendix/submit-advice-n-feedback/retrieve-dump.png)
-
-最后，选中三个文件夹，然后按下 Shift+F10（如果是 Windows 10 或经典右键菜单的 Windows 11 可直接右键），在弹出的菜单栏中选择“发送到(N)”>“压缩(zipped)文件夹”。（如果无法完成，请尝试使用别的压缩软件）
-
-![](../assets/appendix/submit-advice-n-feedback/zip-all.png)
-
-最后将压缩好的日志文件发送给软软小助手即可。
-
-![](../assets/appendix/submit-advice-n-feedback/feedback.png)
+![](../assets/appendix/submit-logs/feedback.png)
