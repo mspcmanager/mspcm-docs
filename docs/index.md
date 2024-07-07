@@ -28,7 +28,7 @@ import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
 const members = [
    {
       avatar: 'https://www.github.com/goo-aw233.png',
-      name: 'goo-aw233',
+      name: 'Goo-aw233',
       title: 'Core Contributor',
       links: [
          { icon: 'github', link: 'https://github.com/goo-aw233' }
@@ -43,17 +43,17 @@ const members = [
        ]
     },
     {
-       avatar: 'https://www.github.com/easycomputer1.png',
+       avatar: 'https://www.github.com/ecomter.png',
        name: 'ecomter',
        title: 'Contributor',
        links: [
-          { icon: 'github', link: 'https://github.com/easycomputer1' }
+          { icon: 'github', link: 'https://github.com/ecomter' }
        ]
     },
     {
        avatar: 'https://www.github.com/faq0.png',
        name: 'Untitled',
-       title: '文档贡献者',
+       title: 'Contributor',
        links: [
           { icon: 'github', link: 'https://github.com/faq0' }
        ]
@@ -61,7 +61,7 @@ const members = [
    {
       avatar: 'https://www.github.com/SplashCN123.png',
       name: 'SplashCN',
-      title: '文档贡献者',
+      title: 'Contributor',
       links: [
          { icon: 'github', link: 'https://github.com/SplashCN123' }
       ]
