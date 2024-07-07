@@ -1,9 +1,11 @@
 # 微软电脑管家使用文档
 ![微软电脑管家 3.0](https://pcmanager.microsoft.com/assets/digitalLivingMain-phone.png)  
-  
-[English](./README.md) | 
+   
 ![协议](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue)
 ![ci 状态](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
+
+### 🖹 语言
+[English](./README.md) | [繁體中文](./README.zh-tw.md)
 
 ### 👏 介绍
 这是 **Microsoft 官方**出品的电脑辅助软件“微软电脑管家”的非官方使用文档，希望本文档能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！😉   
@@ -20,16 +22,21 @@ _* 请注意，本文档部分内容引用了来自第三方（即非 Microsoft 
 ### 🖥️ 本地部署文档
 a. 首先，请确保你的计算机中安装了 Node.js（18 LTS 或 20 及更高版本）。  
   
-b. 将源码 clone 到本地：  
+b. 将源码 clone 到本地： 
+
 ```shell
 git clone https://github.com/mspcmanager/mspcm-docs
 ```
+
 c. 安装 PNPM 和项目依赖的模块：  
+
 ```shell
 npm install pnpm -g
 pnpm install
 ```
+
 d. 启动开发环境，作出你的修改，再启动生产模式以构建静态页面：  
+
 ```shell
 pnpm dev
 pnpm build
