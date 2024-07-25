@@ -1,6 +1,6 @@
 # How To Submit Logs
 
-Get `MSPCManagerHelper_CMD.zip` from `#attachments`, moderator or [OneDrive](hhttps://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EtKwa-2la71HmG2RxkB5lngBvvRt9CFOYsyJG_HOwYIzNA).
+Get `MSPCManagerHelper_CMD.zip` from `#attachments`, moderator or [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EtKwa-2la71HmG2RxkB5lngBvvRt9CFOYsyJG_HOwYIzNA).
 
 Select Extracl All, and extract to the current folder directory (no need to create a new folder).
 

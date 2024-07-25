@@ -7,7 +7,7 @@ Solution:
 
 1. Download `MicrosoftEdgeSetupUnlocker.reg` from [OneDrive](https://gbcs6-my.sharepoint.com/:u:/g/personal/gucats_gbcs6_onmicrosoft_com/ESvGdSUKfTtIrKfkEmlC3AABkDVyQwf3nWYcbc5tC1NiUg?e=rkTobg) and merge it to the registry. Or create a txt document, type in the following, save it and change the extension to `.reg` before merging.
 
-```Registry
+```
 Windows Registry Editor Version 5.00
 
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe]

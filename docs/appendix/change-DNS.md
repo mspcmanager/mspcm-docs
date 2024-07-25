@@ -3,7 +3,7 @@
 ## How To Change DNS
 1. Press WIN + R, type [ms-settings:network-ethernet](ms-settings:network-ethernet) and press Enter.
 
-2. Find DNS server assignment，click Edit > Manual, and turn on the IPv4 option.
+2. Find DNS server assignment, click Edit > Manual, and turn on the IPv4 option.
 
 ![](../assets/appendix/change-DNS/edit.png)
 

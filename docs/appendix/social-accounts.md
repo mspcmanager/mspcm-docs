@@ -2,7 +2,7 @@
 
 ## Official Social Media
 :::warning WARNING!!!
-Other than the social media accounts mentioned below, we do not have official accounts on other social media (e.g., Bilibili, TikTok, etc.)
+Other than the social media accounts mentioned below, we do not have official accounts on other social media. (e.g., Bilibili, TikTok, etc.)
 :::
 
 ### Discord
@@ -25,7 +25,7 @@ Other than the social media accounts mentioned below, we do not have official ac
 
 ## Unofficial Social Media Accounts
 :::warning Notice
-The following are not social media accounts operated by Microsoft PC Manager, but are trusted accounts
+The following are not social media accounts operated by Microsoft PC Manager, but are trusted accounts.
 :::
 
 ### X

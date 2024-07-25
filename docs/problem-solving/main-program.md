@@ -21,153 +21,196 @@ Figure Legend:
 
 Causation:
 
-1. 未安装 Microsoft Edge WebView2。
+1. Microsoft Edge WebView2 is not installed.
 
-2. Microsoft Edge Webview2 安装时弹出的 UAC 弹窗未授权。
+2. Microsoft Edge Webview2 installation UAC pop-up does not click `Yes`.
 
-3. Microsoft Edge WebView2 和（或）Microsoft Edge 版本过旧。
+3. Microsoft Edge WebView2 and / or Microsoft Edge version is too old.3
 
-4. 你的网络环境较差，或微软电脑管家主程序无法联网，导致与 Microsoft 通信不佳。
+4. you have a poor network environment or the Microsoft PC Manager is not networkable, resulting in poor communication with Microsoft.
 
-5. <font color=red>注册表引起的 Microsoft Edge (WebView 2 Runtime) 安装程序错误。</font>
+5. <font color=red>Microsoft Edge (WebView 2 Runtime) installer errors caused by the registry.</font>
 
-6. 其它原因。
+6. Other reasons.
 
-Solution:（请先 **退出微软电脑管家主程序** ）
+Solution: (Please first **exit Microsoft PC Manager**)
 
-1. 请尝试 [下载 Microsoft Edge WebView2](https://go.microsoft.com/fwlink/?linkid=2124701) 并安装。（需要右键安装程序，选择“以管理员身份运行”）
+1. Please try [Download Microsoft Edge WebView2](https://go.microsoft.com/fwlink/?linkid=2124701) and install it. (You need to right-click the installer and select `Run as administrator`)
 
-2. 请尝试重新修复，并直接点击“是”。
+2. Please try to repair it again and just click `Yes`.
 
 ![](../assets/problem-solving/main-program/EdgeWebView2/EdgeWebView2-Setup.png)
 
-3. 请尝试以下步骤以修复 Microsoft Edge WebView2 Runtime。
+3. Please try the following steps to fix Microsoft Edge WebView2 Runtime:
 
-a. 按下 WIN + R，输入 [ms-settings:appsfeatures](ms-settings:appsfeatures) 并回车。
+a. Press WIN + R, type [ms-settings:appsfeatures](ms-settings:appsfeatures) and enter.
 
-b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序，并点击旁边的“...”，再点击“修改”。
+b. Find the program called `Microsoft Edge WebView2 Runtime` in the list and click `...` next to it. and click `Modify`.
 
 ![](../assets/problem-solving/main-program/EdgeWebView2/modify.png)
 
-c. 点击修改后，安装程序会出现以下弹窗，点击“修复”后，安装程序将自动联网下载并重新安装 Microsoft Edge WebView2。
+c. After clicking `Modify`, the installer will show the following window. After clicking `Repair`, the installer will automatically network to download and reinstall Microsoft Edge WebView2.
 
-![](../assets/problem-solving/main-program/EdgeWebView2/repair-Edge-WebView-2.png)
+![](../assets/problem-solving/main-program/EdgeWebView2/repair-EdgeWebView2.png)
 
-d. 启动微软电脑管家。
+d. Start Microsoft PC Manager
 
-4. 需要先判断自己是否有安装 Microsoft Edge WebView2，步骤如下：
+4. You need to determine if you have Microsoft Edge WebView2 installed first, the steps are as follows:
 
-a. 按下 WIN + R，输入 [ms-settings:appsfeatures](ms-settings:appsfeatures) 并回车。
+a. Press WIN + R, type [ms-settings:appsfeatures](ms-settings:appsfeatures) and enter.
 
-b. 在列表中找到名为“Microsoft Edge WebView2 Runtime”的程序。
+b. Find the program called `Microsoft Edge WebView2 Runtime` in the list.
 
-![](../assets/problem-solving/main-program/EdgeWebView2/Edge-WebView-2.png)
+![](../assets/problem-solving/main-program/EdgeWebView2/EdgeWebView2.png)
 
-c.若已经安装，请重复 3. 的步骤；若未安装，请重复 1. 的步骤。
+c. If already installed, repeat step 3. If not installed, repeat step 1.
 
-5. See the section [Microsoft Edge (WebView2 Runtime) Setup Not Working](../problem-solving/EdgeWebView2#microsoft-edge-webview2-runtime-setup-not-working).
+5. See [How To Change DNS](../appendix/change-DNS#how-to-change-dns)
 
-若依旧报错，请先参阅[How To Submit Logs](../appendix/submit-logs)，再转到[How to Repair Windows Using Images](../appendix/repair-system-image#image-repair)。
+6. See the section [Microsoft Edge (WebView2 Runtime) Setup Not Working](../problem-solving/EdgeWebView2#microsoft-edge-webview2-runtime-setup-not-working).
+
+If the error persists, see [How To Submit Logs](../appendix/submit-logs), then go to [How to Repair Windows Using Images](../appendix/repair-system-image#image-repair).
+
+## Something Happened On Our End
+Figure Legend:
+
+![](../assets/problem-solving/main-program/download-failure/something-happened-on-our-end.png)
+
+Causation & Solution: See the section [Download Failure](#download-failure).
+
+## Download Failure
+Figure Legend:
+
+![](../assets/problem-solving/main-program/download-failure/download-failure.png)
+
+Causation:
+
+1. The Microsoft PC Manager latest version conflicts with the Microsoft PC Manager Beta.
+
+2. you have a poor network environment or the Microsoft PC Manager is not networkable, resulting in poor communication with Microsoft.
+
+Solution:
+
+1. Uninstall Microsoft PC Manager Beta and run Terminal or PowerShell as administrator and enter the following command:
+
+```PowerShell
+Get-AppxPackage -AllUsers | where-object {$_.name -like "Microsoft.MicrosoftPCManager"} | Remove-AppxPackage -AllUsers
+```
+
+2. See [How To Change DNS](../appendix/change-DNS#how-to-change-dns)
+
+:::warning WARING
+Microsoft PC Manager Beta is ending support soon, please download the latest version from [Microsoft Store](https://www.microsoft.com/store/productid/9PM860492SZD) or WinGet.
+If you don't have a Microsoft Store or WinGet on your device, you can get the latest of Microsoft PC Manager from `#attachments` on [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EoscJOQ9taJFtx9LZLPiBM0BEmVm7wsLuJOuHnwmo9EQ5w?e=QWoXaL) or Discord.
+:::
 
 ## Unable To Load PC Manager Service
 Figure Legend:
 
 ![](../assets/problem-solving/main-program/service-error/unable-to-load-service.png)
 
-Causation & Solution: See the section [《无法完成当前操作》](#无法完成当前操作).
+Causation & Solution: See the section [Unable To Proceed](#unable-to-proceed).
 
-## 无法完成当前操作
+## Unable To Proceed
 Figure Legend:
 
 ![](../assets/problem-solving/main-program/service-error/unable-to-proceed.png)
 
 Solution:
-1. 按下 WIN + R，输入 services.msc 并回车
+1. Press WIN + R, type in services.msc and enter.
 
-2. 找到名为“PCManager Service (Store)”的服务，右键选择“重新启动(E)”。（或者是“启动(S)”）
+2. Locate the service called `PCManager Service (Store)`, right click and select `Restart (E)`. (or `Start(S)`)
 
 ![](../assets/problem-solving/main-program/service-error/start-service.png)
 
 ![](../assets/problem-solving/main-program/service-error/restart-service.png)
 
-3. 尝试重新运行“垃圾清理”任务。
+3. Try to rerun the `Deep cleanup` task.
 
 ![](../assets/problem-solving/main-program/service-error/cleanup.png)
 
-若报错依旧，请参阅[《提交日志》](../appendix/submit-advice-n-feedback)，把你收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要你来协助我们修复。<font color=red>完成后将微软电脑管家**完全卸载后再重新安装重试**</font>。
+If the error persists, see [How To Submit Logs](../appendix/submit-advice-n-feedback) and send us the logs, dump files, screenshots of the problem, and the system version you've collected, as you may be needed to assist us in fixing it. <font color=red>After finishing, uninstall Microsoft PC Manager **completely and then reinstall and retry**</font>.
 
-## 微软电脑管家无法安装
-问题现象：使用微软电脑管家公测版后，无法通过 Microsoft Store 或 WinGet 升级到微软电脑管家正式版，且卸载后问题依旧。
+## Unable To Install Microsoft PC Manager
+Description: After using the Microsoft PC Manager Beta, you cannot upgrade to the latest version of Microsoft PC Manager via Microsoft Store or WinGet, and the problem persists after uninstalling it.
 
 Solution:
-1. 卸载微软电脑管家公测版。
+1. Uninstall the Microsoft PC Manager Beta
 
-2. 按下 WIN + X 打开开始菜单高级菜单，并选择“终端管理员”（请确保运行的是PowerShell）或“Windows PowerShell (管理员)”。
+2. Press WIN + X to open the Start Menu Advanced menu and select `Terminal (Admin)` (make sure you are running PowerShell) or `Windows PowerShell (Admin)`.
 
 ![](../assets/problem-solving/main-program/uninstallable/startmenu-right-click.png)
 
-3. 在里面输入以下命令，完成后重启计算机。
+3. Enter the following command in it and restart your PC when you are done.
 
 ```PowerShell
 Get-AppxPackage -AllUsers | where-object {$_.name -like "Microsoft.MicrosoftPCManager"} | Remove-AppxPackage -AllUsers
 ```
 
-## Windows 工具选项缺少
+## Windows Tool Options Are Missing
 Figure Legend:
 
-Windows 11：
+Windows 11:
 
 ![](../assets/problem-solving/main-program/missing-tool-options/Windows-11.png)
 
-Windows 10：
+Windows 10:
 
 ![](../assets/problem-solving/main-program/missing-tool-options/Windows-10.png)
 
-其它缺少对应功能的 Windows：
+Other Windows missing features:
 
 ![](../assets/problem-solving/main-program/missing-tool-options/Windows-others.png)
 
-Causation: 系统内无对应系统 UWP 应用，或缺少功能。
+Microsoft PC Manager Beta:
 
-Solution: 升级系统至 [Windows 11](https://aka.ms/DownloadWindows11)，或补全缺失的系统 WindowsApps 应用。（[实时字幕](https://support.microsoft.com/zh-cn/windows/%E4%BD%BF%E7%94%A8%E5%AE%9E%E6%97%B6%E5%AD%97%E5%B9%95%E6%9B%B4%E5%A5%BD%E5%9C%B0%E4%BA%86%E8%A7%A3%E9%9F%B3%E9%A2%91-b52da59c-14b8-4031-aeeb-f6a47e6055df) 在 Windows 11 22H2 及更高版本中提供）
+![](../assets/problem-solving/main-program/missing-tool-options/Beta.png)
 
-## 没有注册类
+Causation: There is no corresponding in-box app(s) in the system, or the features is missing.
+
+Solution: 
+
+1. Upgrade your system to [Windows 11](https://aka.ms/DownloadWindows11), or install the missing in-box app(s). ([Live Captions](https://support.microsoft.com/windows/%E4%BD%BF%E7%94%A8%E5%AE%9E%E6%97%B6%E5%AD%97%E5%B9%95%E6%9B%B4%E5%A5%BD%E5%9C%B0%E4%BA%86%E8%A7%A3%E9%9F%B3%E9%A2%91-b52da59c-14b8-4031-aeeb-f6a47e6055df) is available in Windows 11 22H2 and later)
+
+2. If you are currently using Microsoft PC Manager Beta, please download the latest version from [Microsoft Store](https://www.microsoft.com/store/productid/9PM860492SZD) or WinGet after uninstalling. If your device does not have Microsoft Store or WinGet, you can get the latest version of Microsoft PC Manager from `#attachments` on [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EoscJOQ9taJFtx9LZLPiBM0BEmVm7wsLuJOuHnwmo9EQ5w?e=QWoXaL) or Discord.
+
+## Not Implemented
 Figure Legend:
 
-![](../assets/problem-solving/main-program/no-registration-class/no-registration-class.png)
+![](../assets/problem-solving/main-program/not-implemented/not-implemented.png)
 
 Solution: (Only one of these steps needs to be done)
 1. Upgrade your PC Manager version to 3.3.14.0 or later via Microsoft Store or WinGet.
 
-2. Turn to `Settings` > `Seneral settings` and turn off "Start PC Manager automatically when I sign in to Windows", then restart your PC twice.
+2. Turn to `Settings` > `Seneral settings` and turn off `Start PC Manager automatically when I sign in to Windows`, then restart your PC twice.
 
-![](../assets/problem-solving/main-program/no-registration-class/close-startup.png)
+![](../assets/problem-solving/main-program/not-implemented/close-startup.png)
 
-## 屏蔽应用内不想要的更新项
+## Block Unwanted Updates
 Figure Legend:
 
 ![](../assets/problem-solving/main-program/wushowhide/updates.png)
 
-1. 从 Microsoft 下载 [wushowhide.diagcab](http://download.microsoft.com/download/F/2/2/F22D5FDB-59CD-4275-8C95-1BE17BF70B21/wushowhide.diagcab) 并打开。
+1. Download [wushowhide.diagcab](http://download.microsoft.com/download/F/2/2/F22D5FDB-59CD-4275-8C95-1BE17BF70B21/wushowhide.diagcab) from Microsoft and open it.
 
-2. 点击“下一步(N)”。
+2. Click `Next(N)`.
 
 ![](../assets/problem-solving/main-program/wushowhide/next.png)
 
-选择“Hide updates”。
+Select `Hide updates`.
 
 ![](../assets/problem-solving/main-program/wushowhide/hide-updates.png)
 
-3. 勾选你需要屏蔽的更新，并点击“下一步(N)”。
+3. Check the updates you want to block and click `Next(N)`.
 
 ![](../assets/problem-solving/main-program/wushowhide/select.png)
 
-等待工具完成疑难解答。
+Wait for the tool to complete the troubleshooting.
 
 ![](../assets/problem-solving/main-program/wushowhide/finish.png)
 
-4. 完成后关闭疑难解答工具即可。应用内不会再次出现已屏蔽的更新。
+4. Just close the troubleshooting tool when you're done. The blocked updates will not reappear within the app.
 
 ![](../assets/problem-solving/main-program/wushowhide/blocked.png)
 
-5. 请注意，此工具同时在 Windows 更新中也会屏蔽对应更新，也请不要删除 <code>C:\Windows\SoftwareDistribution</code> 目录下除 <code>Download</code> 文件夹之外的文件或文件夹，否则会失效。如果需要再次显示某个更新，请在疑难解答工具的步骤二时选择“Show updates”并执行下一步的操作。
+5. Please note that this tool also blocks the corresponding updates in Windows Update, and please do not delete files or folders in the `C:\Windows\SoftwareDistribution` directory other than the `Download` folder, as this will not work. If you need to show an update again, select `Show updates` at step 2 of the troubleshooting tool and proceed to the next step.
