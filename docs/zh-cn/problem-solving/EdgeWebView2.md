@@ -7,7 +7,7 @@
 
 1. 从 [OneDrive](https://gbcs6-my.sharepoint.com/:u:/g/personal/gucats_gbcs6_onmicrosoft_com/ESvGdSUKfTtIrKfkEmlC3AABkDVyQwf3nWYcbc5tC1NiUg?e=rkTobg) 下载 `MicrosoftEdgeSetupUnlocker.reg` 并导入到注册表。或者自行创建 txt 文档，输入以下内容并保存后将后缀格式改为 `.reg` 再导入。
 
-```Registry
+```
 Windows Registry Editor Version 5.00
 
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdgeUpdate.exe]
