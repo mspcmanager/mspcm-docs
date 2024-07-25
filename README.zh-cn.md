@@ -5,7 +5,7 @@
 ![ci 状态](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
 
 ### 🖹 语言
-[English](./README.md) | [繁體中文](./README.zh-tw.md)
+[English (United States)](./README.md) | [繁體中文](./README.zh-tw.md)
 
 ### 👏 介绍
 这是 **Microsoft 官方**出品的电脑辅助软件“微软电脑管家”的非官方使用文档，希望本文档能够在你使用产品遇到问题时提供一点帮助。欢迎前往 <https://pcmanager.microsoft.com> 下载并体验最新版微软电脑管家！😉   
