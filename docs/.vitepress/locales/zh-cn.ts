@@ -27,7 +27,7 @@ export default defineConfig({
         },
         footer: {
             message: '本文档基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a> 发布',
-            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
+            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Volunteers'
         }
     }
 })
@@ -42,9 +42,7 @@ function nav(): DefaultTheme.NavItem[] {
         items: [
             { text: '官方 QQ 群', link: 'https://forms.office.com/r/CEdWBcMkiN' },
             { text: '官方微博', link: 'https://weibo.com/mspcmanager' },
-            { text: '官方微信公众号', link: 'http://weixin.qq.com/r/VyhzazfExmq5rXMI931F' },
-            { text: '官方 Discord', link: 'https://discord.com/invite/FTDTddsPgd' },
-            { text: '官方 Facebook', link: 'https://www.facebook.com/microsoft.pcmanager.tw' }
+            { text: '官方微信公众号', link: 'http://weixin.qq.com/r/VyhzazfExmq5rXMI931F' }
         ]
     }]
 }

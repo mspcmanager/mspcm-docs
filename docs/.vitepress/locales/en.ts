@@ -14,7 +14,7 @@ export default defineConfig({
         },
         footer: {
             message: 'This documentation is released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
-            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
+            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Volunteers'
         }
     }
 })
@@ -25,7 +25,7 @@ function nav(): DefaultTheme.NavItem[] {
         link: 'https://pcmanager.microsoft.com'
     },
     {
-        text: 'Follow us',
+        text: 'More Contact',
         items: [
             { text: 'Discord', link: 'https://discord.com/invite/FTDTddsPgd' },
             { text: 'Reddit', link: 'https://www.reddit.com/r/MicrosoftPcManager' },
@@ -40,7 +40,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             text: 'Get Started',
             items: [
                 { text: 'Agreements and Declarations', link: '/get-started/agreements-and-declarations.html' },
-                { text: 'About Us', link: '/get-started/about.html' }
+                { text: 'About', link: '/get-started/about.html' }
             ]
         },
         {
