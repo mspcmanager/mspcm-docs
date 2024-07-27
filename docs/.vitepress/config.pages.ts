@@ -10,6 +10,11 @@ export default defineConfig({
     appearance: true,
     lastUpdated: true,
     cleanUrls: false,
+    ignoreDeadLinks: [
+        url => {
+            return url.toLowerCase().includes('./index')
+        }
+    ],
     locales: {
         root: { label: 'English', dir: 'en', ...en },
         "zh-cn": { label: '简体中文', dir: 'zh-cn', ...zhCn },

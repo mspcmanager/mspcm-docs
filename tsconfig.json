@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Bundler",
         "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true
+        "target": "ES2021"
     },
     "include": [
         "./docs/.vitepress/**.*"
