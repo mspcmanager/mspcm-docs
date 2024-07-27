@@ -1,11 +1,9 @@
-# 其它尚未列出解决办法的问题
+# Other Unresolved Issues
 
-类似于下图，没有在上面的文章中明出和指明解决方法的问题，请参阅[《提交日志》](../appendix/submit-advice-n-feedback)的说明，把您收集到的日志、转储文件、问题截图以及系统版本一并发给我们，后续可能会需要您来协助我们修复。
+Similar to the image below, for issues that are not listed and indicated with a solution in the above post, see the [submit log](../appendix/submit-advice-n-feedback), and send us your collected logs, dump files, screenshots of the problem, and the system version, and you may be required to assist us in fixing it.
 
-<font size=1>*以下问题可能是由 C:/Windows/Microsoft.NET 下文件缺失所引起的报错。</font>
+<font size=1>*The following problem may be an error caused by a missing file from C:/Windows/Microsoft.NET</font>
 
 ![](../assets/problem-solving/unresolved-issues/unresolved-issues-1.png)
 
 ![](../assets/problem-solving/unresolved-issues/unresolved-issues-2.png)
-
-![](../assets/problem-solving/unresolved-issues/unresolved-issues-3.png)

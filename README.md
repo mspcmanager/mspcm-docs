@@ -1,9 +1,11 @@
 # Microsoft PC Manager Docs
 ![Microsoft PC Manager 3.0](https://pcmanager.microsoft.com/assets/digitalLivingMain-phone.png)  
   
-[简体中文](./README.zh-cn.md) | 
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue)
 ![CI Status](https://img.shields.io/github/actions/workflow/status/mspcmanager/mspcm-docs/deploy-to-pages.yml) 
+
+### 🖹 Languages
+[简体中文](./README.zh-cn.md) | [繁體中文](./README.zh-tw.md)
 
 ### 👏 Introduction  
 This is an unofficial document of Microsoft PC Manager, a PC assistant produced by **Microsoft Corporation**, and we hope this may provide some help when you're meeting problems with Microsoft PC Manager. Visit <https://pcmanager.microsoft.com> for the latest Microsoft PC Manager! 😉   
@@ -23,15 +25,20 @@ See details in [CONTRIBUTING.md](./CONTRIBUTING.md)。
 a. Make sure that Node.js (v18 LTS or v20 and later) has been installed on your PC.
   
 b. Clone the repo.  
+
 ```shell
 git clone https://github.com/mspcmanager/mspcm-docs
 ```
+
 c. Install PNPM and dependencies of this repo.  
+
 ```shell
 npm install pnpm -g
 pnpm install
 ```
+
 d. Start the development env and do some changes, and then start production env for building static pages.  
+
 ```shell
 pnpm dev
 pnpm build

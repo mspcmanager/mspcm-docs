@@ -1,7 +1,7 @@
 # 使用 DISM & SFC 命令功能修复损坏的系统映像
 **特别提示：该功能并不能 100% 修复所有损坏的映像，必要时请参阅[《如何使用镜像对 Windows 进行修复》](#镜像修复)**
 
-按下Windows 徽标键+X，并选择“PowerShell(管理员)”或“终端(管理员)”。
+按下 WIN + X，并选择“Windows PowerShell(管理员)”或“终端(管理员)”。
 
 ## 检查系统文件是否损坏并修复
 扫描映像以检查是否损坏，命令操作可能需要几分钟才能完成。
@@ -50,7 +50,7 @@ SFC /SCANNOW
 完成并重启后，部分由系统损坏带来的问题将被修复。如有需要，您可再次执行 Windows 更新。
 
 ## 如果遇到其它错误
-如下图所示，在检查映像/修复损坏的映像时遇到“错误：<错误代码>”的提示，且 自行解决无果，您则需要请参阅[《如何使用镜像对 Windows 进行修复》](#镜像修复)进行系统修复。
+如下图所示，在检查映像 / 修复损坏的映像时遇到“错误：<错误代码>”的提示，且自行解决无果，您则需要请参阅[《如何使用镜像对 Windows 进行修复》](#镜像修复)进行系统修复。
 
 ![](../assets/appendix/repair-system-image/dism-sfc/error.png)
 
@@ -62,7 +62,7 @@ SFC /SCANNOW
 <summary>关于 Windows 10 镜像下载</summary>
 
 :::warning 提示
-Windows 10 不再在电脑端网页单独提供 ISO 下载，如果有需要，请在下载页面上按下 F12，再按下 Ctrl+Shift+M，然后按下 F5 刷新页面，最后按下 F12 即可。
+Windows 10 不再在电脑端网页单独提供 ISO 下载，如果有需要，请在下载页面上按下 F12，再按下 Ctrl + Shift + M，然后按下 F5 刷新页面，最后按下 F12 即可。
 :::
 
 ![](../assets/appendix/repair-system-image/iso/win10-iso.png)
@@ -75,7 +75,7 @@ Windows 10 不再在电脑端网页单独提供 ISO 下载，如果有需要，�
 下载 Media Creation Tool：[Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) | [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295)
 
 :::warning 注意
-Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可以直接使用 Media Creation Tool 升级/修复系统。
+Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可以直接使用 Media Creation Tool 升级 / 修复系统。
 :::
 
 1. ![](../assets/appendix/repair-system-image/mct/agreement.png)
@@ -87,6 +87,7 @@ Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可�
 <summary>若是 Windows 11 则会有以下选项</summary>
 
 ------
+
 - a. ![](../assets/appendix/repair-system-image/mct/for-this-PC.png)
 
 - b. ![](../assets/appendix/repair-system-image/mct/ISO-file.png)
@@ -94,6 +95,7 @@ Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可�
 - c. ![](../assets/appendix/repair-system-image/mct/select-folder.png)
 
 创建完成后请参阅 [镜像修复](#镜像修复)
+
 ------
 
 </details>
@@ -102,8 +104,9 @@ Windows 11 的 Media Creation Tool 仅能创建 ISO 镜像，而 Windows 10 可�
 
 4. ![](../assets/appendix/repair-system-image/mct/waiting.png)
 
-<!-- ## 镜像修复 -->
-双击 .ISO 镜像文件使文件资源管理器自动挂载虚拟镜像，然后使用镜像根目录下的 Setup 应用程序对系统进行修复。（升级，所需时间≥30min）
+## 镜像修复
+双击 .ISO 镜像文件使文件资源管理器自动挂载虚拟镜像，然后使用镜像根目录下的 Setup 应用程序对系统进行修复。（升级，所需时间 ≥30min）
+
 1. ![](../assets/appendix/repair-system-image/iso/setup.png)
 
 2. ![](../assets/appendix/repair-system-image/iso/continue.png)

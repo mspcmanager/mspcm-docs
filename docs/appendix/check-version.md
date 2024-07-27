@@ -1,15 +1,18 @@
-# 公开最新版本号及查询方式
-最新版本号以社区版本为准，从 1.2.x 以后，版本号将统一简写，默认省略开头的 1.。
+# Latest Version and Enquiry
 
-最新 Beta 版：3.8.16.0（发布于 2024 年 2 月 19 日）  
-上个 Beta 版：3.8.15.0（发布于 2024 年 1 月 31 日）  
+## Latest Version
+The latest version number is based on the Microsoft Store version.
 
-最新商店版：3.3.9.0（发布于 2023 年 11 月 24 日）  
-上个商店版：3.3.8.0（发布于 2023 年 11 月 14 日）  
+Release: Updated July 1, 2024, version 3.12.1.0
 
-<font size=1>* 内部版本号将不再提供。</font>
+Fast Preview: Updated July 13, 2024, version 3.12.3.0
 
-### 版本号查询方式
-点击微软电脑管家左下方的“设置”按钮。（图例版本不一定为最新）
+When the version numbers are the same, multiple versions have the same content.
+
+Microsoft PC Manager Beta is ending support soon, please download the latest version from [Microsoft Store](https://www.microsoft.com/store/productid/9PM860492SZD) or WinGet.
+If you don't have a Microsoft Store or WinGet on your device, you can get the latest version of Microsoft PC Manager from `#attachments` on [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EoscJOQ9taJFtx9LZLPiBM0BEmVm7wsLuJOuHnwmo9EQ5w?e=QWoXaL) or Discord.
+
+## How To Enquiry Version
+Click on the Settings button at the bottom left of Microsoft PC Manager.
 
 ![](../assets/appendix/check-version/latest-version.png)

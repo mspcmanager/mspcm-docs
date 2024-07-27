@@ -14,21 +14,22 @@ export default defineConfig({
         },
         footer: {
             message: 'This documentation is released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
-            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Administrators'
+            copyright: 'Copyright © 2023-2024 Microsoft PC Manager Volunteers'
         }
     }
 })
 
 function nav(): DefaultTheme.NavItem[] {
     return [{
-        text: 'Official website',
+        text: 'Official Website',
         link: 'https://pcmanager.microsoft.com'
     },
     {
-        text: 'Follow us',
+        text: 'More Contact',
         items: [
-            { text: 'Weibo', link: 'https://weibo.com/mspcmanager' },
-            { text: 'Discord', link: 'https://discord.com/invite/FTDTddsPgd' }
+            { text: 'Discord', link: 'https://discord.com/invite/FTDTddsPgd' },
+            { text: 'Reddit', link: 'https://www.reddit.com/r/MicrosoftPcManager' },
+            { text: 'Facebook', link: 'https://www.facebook.com/microsoft.pcmanager.tw' }
         ]
     }]
 }
@@ -39,29 +40,29 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             text: 'Get Started',
             items: [
                 { text: 'Agreements and Declarations', link: '/get-started/agreements-and-declarations.html' },
-                { text: 'About Software', link: '/get-started/about.html' }
+                { text: 'About', link: '/get-started/about.html' }
             ]
         },
         {
             text: 'Common Problems',
             items: [
-                { text: 'Before Installing', link: '/problem-solving/before-installing.html' },
-                { text: 'While Installing', link: '/problem-solving/while-installing.html' },
-                { text: 'While Using', link: '/problem-solving/while-using.html' },
-                { text: 'About Microsoft Defender', link: '/problem-solving/MDA.html' },
-                { text: 'Other Unsolved Problems', link: '/problem-solving/unresolved-issues.html' }
+                { text: 'Quick Start', link: '/problem-solving/quick-start.html' },
+                { text: 'Main Program Usage Issues', link: '/problem-solving/main-program.html' },
+                { text: 'Microsoft Edge WebView2 Issues', link: '/problem-solving/EdgeWebView2.html' },
+                { text: 'Microsoft Defender AntiVirus Issues', link: '/problem-solving/MDA.html' },
+                { text: 'Other Usage', link: '/problem-solving/other-usage.html' },
+                { text: 'Other Unresolved Issues', link: '/problem-solving/unresolved-issues.html' }
             ]
         },
         {
             text: 'Appendix',
             items: [
-                { text: 'Check Version', link: '/appendix/check-version.html' },
+                { text: 'Latest Version', link: '/appendix/check-version.html' },
                 { text: 'Submit Logs', link: '/appendix/submit-logs.html' },
-                { text: 'Tips', link: '/appendix/OUCH.html' },
-                { text: 'Submit Advice & Feedback', link: '/appendix/submit-advice-n-feedback.html' },
-                { text: 'Repair System Image', link: '/appendix/repair-system-image.html' },
+                { text: 'Submission of Suggestions and Feedback and Information Collection', link: '/appendix/submit-advice-n-feedback.html' },
+                { text: 'Repair a Windows Image', link: '/appendix/repair-system-image.html' },
                 { text: 'Change DNS', link: '/appendix/change-DNS.html' },
-                { text: 'Our Social Accounts', link: '/appendix/social-accounts.html' },
+                { text: 'Social Media', link: '/appendix/social-accounts.html' },
                 { text: 'Postscript', link: '/appendix/postscript.html' }
             ]
         }
