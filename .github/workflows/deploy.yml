@@ -1,7 +1,7 @@
 name: Deploy to Github Pages
 on: 
     push:
-        branches: [ main, opt/ci ]
+        branches: [ main ]
 
 jobs:
     setup:
@@ -22,7 +22,7 @@ jobs:
                 COMMIT_COUNT=$(git rev-list --count HEAD)
                 BUILD_DATE=$(date "+%y%m%d")
                 HEAD_SHA=$(git rev-parse --short HEAD)
-                echo "DIST_NAME=dist-${COMMIT_COUNT}-${BUILD_DATE}-${HEAD_SHA}" >> $GITHUB_OUTPUT
+                echo "DIST_NAME=dist-b${COMMIT_COUNT}-${BUILD_DATE}-${HEAD_SHA}" >> $GITHUB_OUTPUT
 
     main:
         name: Build Production Pages

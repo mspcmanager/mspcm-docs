@@ -19,11 +19,10 @@ jobs:
           - name: 📙 Get Build Information
             id: get-info
             run: |
-                if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
-                    COMMIT_COUNT=$(git rev-list --count HEAD)
-                    BUILD_DATE=$(date "+%y%m%d")
-                    HEAD_SHA=$(git rev-parse --short HEAD)
-                    echo "DIST_NAME=dist-PR-${COMMIT_COUNT}-${BUILD_DATE}-${HEAD_SHA}" >> $GITHUB_OUTPUT
+                COMMIT_COUNT=$(git rev-list --count HEAD)
+                BUILD_DATE=$(date "+%y%m%d")
+                HEAD_SHA=$(git rev-parse --short HEAD)
+                echo "DIST_NAME=dist-PR-${COMMIT_COUNT}-${BUILD_DATE}-${HEAD_SHA}" >> $GITHUB_OUTPUT
 
     build:
         name: Build Production Pages
