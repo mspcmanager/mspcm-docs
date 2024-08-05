@@ -1,6 +1,6 @@
 # 如何提交日志文件
 
-从群文件、管理员或 [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EtKwa-2la71HmG2RxkB5lngBvvRt9CFOYsyJG_HOwYIzNA) 获取 `微软电脑管家辅助脚本_CMD.zip`。
+从群文件、管理员或 [OneDrive](https://gbcs6-my.sharepoint.com/:f:/g/personal/gucats_gbcs6_onmicrosoft_com/EtKwa-2la71HmG2RxkB5lngBvvRt9CFOYsyJG_HOwYIzNA) 获取 `MSPCManagerHelper_zh-cn.zip`。
 
 选择解压，并提取到当前文件夹目录下（无需再新建文件夹）。
 
