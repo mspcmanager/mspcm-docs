@@ -3,9 +3,9 @@
 ## Latest Version
 The latest version number is based on the Microsoft Store version.
 
-Release: Updated July 1, 2024, version 3.12.1.0
+Release: Updated Aug 2, 2024, version 3.12.5.0
 
-Fast Preview: Updated July 13, 2024, version 3.12.3.0
+Fast Preview: Updated July 29, 2024, version 3.12.5.0
 
 When the version numbers are the same, multiple versions have the same content.
 
