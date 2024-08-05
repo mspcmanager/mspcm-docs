@@ -19,6 +19,13 @@ Figure Legend:
 
 Causation & Solution: See the section [Real-time Protection Is Off](#real-time-protection-is-off).
 
+## Unable To Use Windows Security
+Figure Legend:
+
+![](../assets/problem-solving/MDA/MD-unable-to-load/unable-to-use-Windows-Security.png)
+
+Causation & Solution: See the section [Real-time Protection Is Off](#real-time-protection-is-off).
+
 ## Real-time Protection Is Off
 Figure Legend:
 
