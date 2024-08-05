@@ -8,7 +8,7 @@ Other than the social media accounts mentioned below, we do not have official ac
 ### Discord
 <https://discord.com/invite/FTDTddsPgd>
 
-![](../assets/appendix/social-account/discord.png)
+![](../assets/appendix/social-account/Discord.png)
 
 ### Reddit
 <https://www.reddit.com/r/MicrosoftPcManager>
@@ -18,10 +18,12 @@ Other than the social media accounts mentioned below, we do not have official ac
 ### Facebook (Traditional Chinese)
 <https://www.facebook.com/microsoft.pcmanager.tw>
 
-![](../assets/appendix/social-account/facebook.png)
+![](../assets/appendix/social-account/Facebook-zh-tw.png)
 
-### WhatsApp
-<https://chat.whatsapp.com/F1TS77Lqbd1JXakJn7JaQW>
+### X
+<https://x.com/MicrosoftPCM>
+
+![](../assets/appendix/social-account/X.png)
 
 ## Unofficial Social Media Accounts
 :::warning Notice
@@ -29,7 +31,6 @@ The following are not social media accounts operated by Microsoft PC Manager, bu
 :::
 
 ### X
-
 <https://x.com/MSPCMgrNews>
 
-![](../assets/appendix/social-account/X.png)
+![](../assets/appendix/social-account/X-unoffical.png)
