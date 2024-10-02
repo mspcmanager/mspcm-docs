@@ -1,4 +1,4 @@
-# Microsoft Defender Issue
+# Microsoft Defender Antivirus Issue
 <font size=1>Microsoft Defender antivirus, earlier known as Windows Defender (Antivirus), Windows Security Center, Microsoft AntiSpyware, and others.</font>
 
 ## Windows Security Center has no contents
@@ -16,6 +16,13 @@ Solution: First try downloading from [OneDrive](https://gbcs6-my.sharepoint.com/
 Figure Legend:
 
 ![](../assets/problem-solving/MDA/MD-unable-to-load/no-active-antivirus-provider.png)
+
+Causation & Solution: See the section [Real-time Protection Is Off](#real-time-protection-is-off).
+
+## Unable To Use Windows Security
+Figure Legend:
+
+![](../assets/problem-solving/MDA/MD-unable-to-load/unable-to-use-Windows-Security.png)
 
 Causation & Solution: See the section [Real-time Protection Is Off](#real-time-protection-is-off).
 
