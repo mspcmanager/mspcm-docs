@@ -1,2 +1,2 @@
 # 加入微软电脑管家预览体验计划
-微软电脑管家现已向普通用户推出了微软电脑管家预览版，请在 [Microsoft Forms](https://forms.office.com/r/v1LX7SKWTs) 中正确填写你用于登录到 Windows 与 Microsoft Store 的邮箱地址，稍后将会向你在 Microsoft Store 中推出预览版。
+在 3.17.12.0 版本加入预览体验计划设置，你需要打开设置→登录电脑管家预览体验，就可以等待推送预览版本了。
